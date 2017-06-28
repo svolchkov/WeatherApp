@@ -24,7 +24,7 @@ public class PreferencesActivity extends AppCompatActivity {
 
         Spinner spCities = (Spinner) findViewById(R.id.spCities);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.cities_array, android.R.layout.simple_spinner_item);
+                R.array.cities_array, R.layout.spinner_item);
         adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
         spCities.setAdapter(adapter);
 
@@ -32,5 +32,15 @@ public class PreferencesActivity extends AppCompatActivity {
         ArrayAdapter myAdap = (ArrayAdapter) spCities.getAdapter(); //cast to an ArrayAdapter
         int spinnerPosition = myAdap.getPosition(myString);
         spCities.setSelection(spinnerPosition);
+
+        Spinner spTextColors = (Spinner) findViewById(R.id.spTextColor);
+        ArrayAdapter<CharSequence> adapter2 = ArrayAdapter.createFromResource(this,
+                R.array.colors_array, R.layout.spinner_item);
+        adapter2.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        spTextColors.setAdapter(adapter2);
+
+        String selectedColor = "White"; //the value you want the position for
+        int spinnerPosition2 = adapter2.getPosition(selectedColor);
+        spTextColors.setSelection(spinnerPosition2);
     }
 }
