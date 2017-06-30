@@ -3,6 +3,7 @@ package com.example.sergeyv.weatherapp;
 import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
+import android.media.audiofx.BassBoost;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.support.design.widget.Snackbar;
@@ -27,7 +28,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvDateTime, tvTitle, tvCity, tvTemperature;
     ArrayList<TextView> textViews;
     int textColor;
-    public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings"; // name of preferences file
+    public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_"; // name of preferences file
 
 
     @Override
@@ -44,12 +45,22 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (prefs != null) {
+            Settings.textColour = prefs.getInt("textColor", 0);
+            Settings.city = prefs.getString("city", null);
+
+        }
+        if (Settings.textColour != 0){
             for (TextView t: textViews){
-                t.setTextColor(prefs.getInt("textColor", Color.WHITE));
-                }
-            tvCity.setText(prefs.getString("city", "Perth,WA"));
-        }else{
+                t.setTextColor(Settings.textColour);
+            }
+        }
+
+        if (Settings.city != null){
+            tvCity.setText(Settings.city);
+        }
+        else{
             Snackbar mySnackbar = Snackbar.make(findViewById(R.id.constraintLayout), R.string.noSettingsSet, Snackbar.LENGTH_LONG);
+            mySnackbar.show();
         }
 
         if (savedInstanceState != null) {
@@ -65,17 +76,33 @@ public class MainActivity extends AppCompatActivity {
         final ActionBar actionBar = getSupportActionBar();
     }
 
+
+    @Override
+    protected void onResume() {
+        super.onResume();
+        if (Settings.textColour != 0){
+            for (TextView t: textViews){
+                t.setTextColor(Settings.textColour);
+            }
+        }
+        if (Settings.city != null){
+            tvCity.setText(Settings.city);
+        }
+    }
+
     @Override
     protected void onStop(){
         // save current user settings to preferences
         super.onStop();
-        SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-        if (Settings.textColour != 0)
-            editor.putInt("textColor", Settings.textColour);
-        if (Settings.city != null)
-            editor.putString("city", Settings.city);
-        editor.apply();
+//        SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+//        if (Settings.textColour != 0)
+//            editor.putInt("textColor", Settings.textColour);
+//        if (Settings.city != null)
+//            editor.putString("city", Settings.city);
+//        editor.apply();
     }
+
+
 
     @Override
     public boolean onCreateOptionsMenu(Menu menu) {
@@ -102,7 +129,7 @@ public class MainActivity extends AppCompatActivity {
 
     protected void onSaveInstanceState(Bundle outState) {
         super.onSaveInstanceState(outState);
-        outState.putInt("textColor", tvTitle.getCurrentTextColor());
-        outState.putString("city", tvCity.getText().toString());
+        outState.putInt("textColor", Settings.textColour);
+        outState.putString("city", Settings.city);
     }
 }
