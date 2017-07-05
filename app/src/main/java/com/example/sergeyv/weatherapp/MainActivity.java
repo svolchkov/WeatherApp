@@ -3,6 +3,8 @@ package com.example.sergeyv.weatherapp;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.graphics.Bitmap;
+import android.graphics.BitmapFactory;
 import android.graphics.Color;
 import android.media.audiofx.BassBoost;
 import android.os.Handler;
@@ -16,11 +18,13 @@ import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.sergeyv.weatherapp.model.Settings;
 
 import org.json.JSONObject;
 
+import java.net.URL;
 import java.text.DateFormat;
 import java.util.ArrayList;
 import java.util.Arrays;
@@ -43,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     TextView updatedField;
     TextView detailsField;
     TextView currentTemperatureField;
-    TextView weatherIcon;
+    ImageView weatherIcon;
 
     Handler handler;
 
@@ -60,11 +64,11 @@ public class MainActivity extends AppCompatActivity {
         updatedField = (TextView)findViewById(R.id.updated_field);
         detailsField = (TextView)findViewById(R.id.details_field);
         currentTemperatureField = (TextView)findViewById(R.id.current_temperature_field);
-        weatherIcon = (TextView)findViewById(R.id.weather_icon);
+        weatherIcon = (ImageView)findViewById(R.id.weather_icon);
 
         textViews = new ArrayList<TextView>(Arrays.asList(tvDateTime,tvTitle,
                 tvCity,tvTemperature,cityField, updatedField, detailsField,
-                currentTemperatureField, weatherIcon));
+                currentTemperatureField));
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (prefs != null) {
@@ -148,11 +152,22 @@ public class MainActivity extends AppCompatActivity {
 
             DateFormat df = DateFormat.getDateTimeInstance();
             String updatedOn = df.format(new Date(json.getLong("dt")*1000));
+            //tvTemperature.setText();
             tvDateTime.setText("Last update: " + updatedOn);
+            //var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
+
+
+            //URL url = new URL("http://openweathermap.org/img/w/" + details.getString("icon") + ".png");
+            new DownloadImageTask(weatherIcon)
+                    .execute("http://openweathermap.org/img/w/" + details.getString("icon") + ".png");
+
+            //Bitmap bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
+            //weatherIcon.setImageBitmap(bmp);
+
 
 
         }catch(Exception e){
-            Log.e("SimpleWeather", "One or more fields not found in the JSON data");
+            Log.e("SimpleWeather", "One or more fields not found in the JSON data",e);
         }
     }
 
