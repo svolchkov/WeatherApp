@@ -53,8 +53,8 @@ import java.util.HashMap;
 
 
                 //imageView.setImageResource(mThumbIds[position]);
-                new DownloadImageTask(weatherIcon)
-                        .execute("http://openweathermap.org/img/w/" + mWeatherData[key] + ".png");
+                new DownloadImageTask(weatherIcon, context)
+                        .execute(mWeatherData[key]);
 
 
             } else {
