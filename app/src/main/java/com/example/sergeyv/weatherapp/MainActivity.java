@@ -21,6 +21,8 @@ import android.view.MenuItem;
 import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
+
+import com.example.sergeyv.weatherapp.model.Forecast;
 import com.example.sergeyv.weatherapp.model.Settings;
 
 import org.json.JSONObject;
@@ -109,7 +111,6 @@ public class MainActivity extends AppCompatActivity {
 
         handler = new Handler();
 
-        updateWeatherData(Settings.city);
     }
 
     private void updateWeatherData(String city){
@@ -143,8 +144,9 @@ public class MainActivity extends AppCompatActivity {
             //       ", " +
             //       json.getJSONObject("sys").getString("country"));
 
-            JSONObject details = json.getJSONArray("weather").getJSONObject(0);
-            JSONObject main = json.getJSONObject("main");
+            //JSONObject details = json.getJSONArray("weather").getJSONObject(0);
+            //JSONObject main = json.getJSONObject("main");
+            Forecast f = new Forecast(json);
 //            detailsField.setText(
 //                    details.getString("description").toUpperCase(Locale.US) +
 //                            "\n" + "Humidity: " + main.getString("humidity") + "%" +
@@ -154,16 +156,20 @@ public class MainActivity extends AppCompatActivity {
 //                    String.format("%.2f", main.getDouble("temp"))+ " ℃");
 //
             DateFormat df = DateFormat.getDateTimeInstance();
-            String updatedOn = df.format(new Date(json.getLong("dt")*1000));
+            //String updatedOn = df.format(new Date(json.getLong("dt")*1000));
+            String updatedOn = df.format(new Date());
             //tvTemperature.setText();
             tvDateTime.setText("Last update: " + updatedOn);
             String temp = getString(R.string.weatherInfo);
-            tvTemperature.setText(String.format(temp, main.getDouble("temp"),0.0,0.0 ) );
+
             //var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
 
-            String[] times = new String[]{"12pm"};
-            String[] weathers = new String[]{details.getString("icon")};
+            String[] times = f.times.toArray(new String[0]);
+            String[] dates = f.dates.toArray(new String[0]);
+            String[] weathers = f.icons.toArray(new String[0]);
+            String[] temps = f.temps.toArray(new String[0]);
 
+            tvTemperature.setText(String.format(temp, temps[0],f.maxTemp,f.minTemp ) );
             //URL url = new URL("http://openweathermap.org/img/w/" + details.getString("icon") + ".png");
             weatherGrid.setAdapter(new WeatherAdapter(this,times, weathers));
 
@@ -189,7 +195,11 @@ public class MainActivity extends AppCompatActivity {
             tvCity.setText(Settings.city);
         }
 
-        updateWeatherData(Settings.city);
+        if (Settings.city != null){
+            updateWeatherData(Settings.city);
+        }else{
+            updateWeatherData("Perth,WA");
+        }
     }
 
     @Override
