@@ -1,12 +1,16 @@
 package com.example.sergeyv.weatherapp;
 
 import android.app.Activity;
+import android.content.Intent;
 import android.content.SharedPreferences;
 import android.graphics.Color;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
 import android.support.v7.widget.Toolbar;
+import android.view.Menu;
+import android.view.MenuInflater;
+import android.view.MenuItem;
 import android.view.View;
 import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
@@ -22,6 +26,7 @@ public class PreferencesActivity extends AppCompatActivity {
     public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_"; // name of preferences file
     SharedPreferences prefs;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -29,9 +34,20 @@ public class PreferencesActivity extends AppCompatActivity {
 
         toolbar = (Toolbar) findViewById(R.id.toolbar);
         setSupportActionBar(toolbar);
+        toolbar.setNavigationOnClickListener(new View.OnClickListener() {
+            @Override
+            public void onClick(View v) {
+                Intent i = new Intent(PreferencesActivity.this,MainActivity.class);
+                startActivity(i);
+            }
+        });
+
+        toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
 
         final ActionBar actionBar = getSupportActionBar();
         actionBar.setTitle(R.string.preferences);
+
+
 
         spCities = (Spinner) findViewById(R.id.spCities);
         ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
@@ -74,6 +90,19 @@ public class PreferencesActivity extends AppCompatActivity {
         spTextColors.setOnItemSelectedListener(new SpinnerActivity());
     }
 
+
+//    @Override
+//    public boolean onOptionsItemSelected(MenuItem item) {
+//        // TODO Auto-generated method stub
+//        switch (item.getItemId()) {
+//            case android.R.id.:
+//
+//                return true;
+//            default:
+//                return super.onOptionsItemSelected(item);
+//        }
+//    }
+
     public class SpinnerActivity extends Activity implements AdapterView.OnItemSelectedListener {
 
 
@@ -107,5 +136,15 @@ public class PreferencesActivity extends AppCompatActivity {
         public void onNothingSelected(AdapterView<?> parent) {
             // Another interface callback
         }
+
+//        @Override
+//        public boolean onCreateOptionsMenu(Menu menu) {
+//            // Inflate the menu; this adds items to the action bar if it is present.
+////        getMenuInflater().inflate(R.menu.main, menu);
+//            MenuInflater inflater = getMenuInflater();
+//            inflater.inflate(R.menu.menu_preferences, menu);
+//
+//            return super.onCreateOptionsMenu(menu);
+//        }
     }
 }
