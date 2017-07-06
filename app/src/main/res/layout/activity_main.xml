@@ -67,13 +67,12 @@
             android:gravity="center_horizontal"
             android:paddingBottom="10dp"
             android:paddingTop="10dp"
-            android:text="Current:  Max:  Min:"
             android:textSize="18sp"
             tools:textColor="@android:color/background_light" />
 
 
 
-
+<!---
             <TextView
                 android:id="@+id/city_field"
                 android:layout_width="match_parent"
@@ -105,15 +104,27 @@
                 android:layout_centerHorizontal="true"
                 tools:textColor="@android:color/background_light"
                 />
-        <ImageView
-            android:id="@+id/weather_icon"
-            android:layout_width="60dp"
-            android:layout_height="60dp"
-            android:scaleType="fitXY"
-            android:layout_gravity="center"
-            />
+ -->
+   <!--             <GridLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:columnCount="2"
+                    android:rowCount="4">
 
+                </GridLayout> -->
+        <GridView xmlns:android="http://schemas.android.com/apk/res/android"
+            android:id="@+id/weather_grid"
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:numColumns="auto_fit"
+            android:columnWidth="80dp"
+            android:horizontalSpacing="10dp"
+            android:verticalSpacing="10dp"
+            android:gravity="center"
+            android:layout_margin="10dp"
+            android:stretchMode="columnWidth" >
 
+        </GridView>
 
     </LinearLayout>
 

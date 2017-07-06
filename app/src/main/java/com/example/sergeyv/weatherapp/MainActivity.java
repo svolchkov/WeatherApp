@@ -18,6 +18,7 @@ import android.util.TypedValue;
 import android.view.Menu;
 import android.view.MenuInflater;
 import android.view.MenuItem;
+import android.widget.GridView;
 import android.widget.ImageView;
 import android.widget.TextView;
 import com.example.sergeyv.weatherapp.model.Settings;
@@ -42,6 +43,8 @@ public class MainActivity extends AppCompatActivity {
     int textColor;
     public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_"; // name of preferences file
 
+    GridView weatherGrid;
+
     //TEMP
     TextView cityField;
     TextView updatedField;
@@ -60,15 +63,15 @@ public class MainActivity extends AppCompatActivity {
         tvTitle = (TextView) findViewById(R.id.tvTitle);
         tvCity = (TextView) findViewById(R.id.tvCity);
         tvTemperature =  (TextView) findViewById(R.id.tvTemp);
-        cityField = (TextView)findViewById(R.id.city_field);
-        updatedField = (TextView)findViewById(R.id.updated_field);
-        detailsField = (TextView)findViewById(R.id.details_field);
-        currentTemperatureField = (TextView)findViewById(R.id.current_temperature_field);
-        weatherIcon = (ImageView)findViewById(R.id.weather_icon);
+        weatherGrid = (GridView) findViewById(R.id.weather_grid);
+//        cityField = (TextView)findViewById(R.id.city_field);
+//        updatedField = (TextView)findViewById(R.id.updated_field);
+//        detailsField = (TextView)findViewById(R.id.details_field);
+//        currentTemperatureField = (TextView)findViewById(R.id.current_temperature_field);
+//        weatherIcon = (ImageView)findViewById(R.id.weather_icon);
 
         textViews = new ArrayList<TextView>(Arrays.asList(tvDateTime,tvTitle,
-                tvCity,tvTemperature,cityField, updatedField, detailsField,
-                currentTemperatureField));
+                tvCity,tvTemperature));
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (prefs != null) {
@@ -136,30 +139,33 @@ public class MainActivity extends AppCompatActivity {
 
     private void renderWeather(JSONObject json){
         try {
-            cityField.setText(json.getString("name").toUpperCase(Locale.UK) +
-                    ", " +
-                    json.getJSONObject("sys").getString("country"));
+            //cityField.setText(json.getString("name").toUpperCase(Locale.UK) +
+            //       ", " +
+            //       json.getJSONObject("sys").getString("country"));
 
             JSONObject details = json.getJSONArray("weather").getJSONObject(0);
             JSONObject main = json.getJSONObject("main");
-            detailsField.setText(
-                    details.getString("description").toUpperCase(Locale.US) +
-                            "\n" + "Humidity: " + main.getString("humidity") + "%" +
-                            "\n" + "Pressure: " + main.getString("pressure") + " hPa");
-
-            currentTemperatureField.setText(
-                    String.format("%.2f", main.getDouble("temp"))+ " ℃");
-
+//            detailsField.setText(
+//                    details.getString("description").toUpperCase(Locale.US) +
+//                            "\n" + "Humidity: " + main.getString("humidity") + "%" +
+//                            "\n" + "Pressure: " + main.getString("pressure") + " hPa");
+//
+//            currentTemperatureField.setText(
+//                    String.format("%.2f", main.getDouble("temp"))+ " ℃");
+//
             DateFormat df = DateFormat.getDateTimeInstance();
             String updatedOn = df.format(new Date(json.getLong("dt")*1000));
             //tvTemperature.setText();
             tvDateTime.setText("Last update: " + updatedOn);
+            String temp = getString(R.string.weatherInfo);
+            tvTemperature.setText(String.format(temp, main.getDouble("temp"),0.0,0.0 ) );
             //var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
 
+            String[] times = new String[]{"12pm"};
+            String[] weathers = new String[]{details.getString("icon")};
 
             //URL url = new URL("http://openweathermap.org/img/w/" + details.getString("icon") + ".png");
-            new DownloadImageTask(weatherIcon)
-                    .execute("http://openweathermap.org/img/w/" + details.getString("icon") + ".png");
+            weatherGrid.setAdapter(new WeatherAdapter(this,times, weathers));
 
             //Bitmap bmp = BitmapFactory.decodeStream(url.openConnection().getInputStream());
             //weatherIcon.setImageBitmap(bmp);

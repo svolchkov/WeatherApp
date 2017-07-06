@@ -4,4 +4,6 @@
     <string name="noSettingsSet">Default location set to Perth,WA. Please go to Settings to change</string>
     <string name="openWeatherApiKey">fa85ded93936e9793385598e3a839eeb</string>
     <string name="unknownCity">This city is unknown</string>
+    <string name="weatherInfo">Current: %1$.1f℃  Max: %2$.1f℃  Min: %3$.1f℃</string>
+
 </resources>
