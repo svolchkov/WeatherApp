@@ -6,11 +6,12 @@
     android:layout_width="match_parent"
     android:layout_height="match_parent"
     android:background="@android:color/background_dark"
+    android:fitsSystemWindows="true"
     tools:context="com.example.sergeyv.weatherapp.MainActivity">
 
     <android.support.v7.widget.Toolbar
         android:id="@+id/toolbar"
-        android:layout_width="match_parent"
+        android:layout_width="368dp"
         android:layout_height="56dp"
         android:background="?attr/colorPrimary"
         android:elevation="4dp"
@@ -24,7 +25,10 @@
         android:layout_height="wrap_content"
         app:layout_constraintTop_toBottomOf="@+id/toolbar"
         android:orientation="vertical"
-        tools:layout_editor_absoluteX="8dp">
+        android:gravity="center"
+        android:layout_gravity="center"
+        tools:layout_editor_absoluteX="8dp"
+        >
 
         <TextView
             android:id="@+id/tvDateTime"
@@ -112,6 +116,10 @@
                     android:rowCount="4">
 
                 </GridLayout> -->
+        <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+
         <GridView xmlns:android="http://schemas.android.com/apk/res/android"
             android:id="@+id/weather_grid"
             android:layout_width="fill_parent"
@@ -123,9 +131,13 @@
             android:gravity="center"
             android:layout_gravity="center"
             android:layout_margin="10dp"
-            android:stretchMode="columnWidth" >
+            android:stretchMode="columnWidth"
+            android:paddingBottom="50dp"
+            android:layout_centerInParent="true">
 
         </GridView>
+
+        </RelativeLayout>
 
     </LinearLayout>
 

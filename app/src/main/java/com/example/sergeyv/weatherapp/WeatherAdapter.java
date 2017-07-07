@@ -44,22 +44,21 @@ import java.util.HashMap;
                 // get layout from mobile.xml
                 gridView = inflater.inflate(R.layout.weather_view, null);
 
-                TextView time = (TextView) gridView.findViewById(R.id.time_field);
-                time.setText(mTimesData[key]);
-                time.setTextColor(Settings.textColour);
-                // set image based on selected text
-                ImageView weatherIcon = (ImageView) gridView
-                        .findViewById(R.id.weather_icon);
-
-
-                //imageView.setImageResource(mThumbIds[position]);
-                new DownloadImageTask(weatherIcon, context)
-                        .execute(mWeatherData[key]);
-
-
             } else {
                 gridView = (View) convertView;
             }
+
+            TextView time = (TextView) gridView.findViewById(R.id.time_field);
+            time.setText(mTimesData[key]);
+            time.setTextColor(Settings.textColour);
+            // set image based on selected text
+            ImageView weatherIcon = (ImageView) gridView
+                    .findViewById(R.id.weather_icon);
+
+
+            //imageView.setImageResource(mThumbIds[position]);
+            new DownloadImageTask(weatherIcon, context)
+                    .execute(mWeatherData[key]);
 
             return gridView;
         }

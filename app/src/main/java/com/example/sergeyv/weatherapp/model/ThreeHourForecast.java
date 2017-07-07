@@ -26,7 +26,7 @@ public class ThreeHourForecast {
         try{
             JSONObject details = json.getJSONArray("weather").getJSONObject(0);
             JSONObject main = json.getJSONObject("main");
-            DateFormat df = new SimpleDateFormat("hh:mm a");
+            DateFormat df = new SimpleDateFormat("EE hh:mm a");
             Format f = new SimpleDateFormat("MMM dd");
             Date d = new Date(json.getLong("dt")*1000);
             this.time = df.format(d);
