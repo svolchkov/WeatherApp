@@ -1,6 +1,7 @@
 package com.example.sergeyv.weatherapp;
 
 import android.content.Context;
+import android.graphics.Color;
 import android.view.LayoutInflater;
 import android.view.View;
 import android.view.ViewGroup;
@@ -50,7 +51,12 @@ import java.util.HashMap;
 
             TextView time = (TextView) gridView.findViewById(R.id.time_field);
             time.setText(mTimesData[key]);
-            time.setTextColor(Settings.textColour);
+            if (Settings.textColour != 0){
+                time.setTextColor(Settings.textColour);
+            }else{
+                time.setTextColor(Color.WHITE);
+            }
+
             // set image based on selected text
             ImageView weatherIcon = (ImageView) gridView
                     .findViewById(R.id.weather_icon);

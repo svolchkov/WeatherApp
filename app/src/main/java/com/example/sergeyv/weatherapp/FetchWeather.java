@@ -20,9 +20,15 @@ public class FetchWeather {
 //            "http://api.openweathermap.org/data/2.5/weather?q=%s&units=metric&APPID=%s";
  //"http://api.openweathermap.org/data/2.5/forecast?q=%s&units=metric&APPID=%s";
  //   getString(R.string.forecastURL);
-    public static JSONObject getJSON(Context context, String city) {
+    public static JSONObject getJSON(Context context, String city, String weatherMode) {
         try {
-            final String OPEN_WEATHER_MAP_API = context.getString(R.string.forecastURL);
+            String OPEN_WEATHER_MAP_API = "";
+            if (weatherMode == "forecast"){
+                OPEN_WEATHER_MAP_API = context.getString(R.string.forecastURL);
+            }else{
+                OPEN_WEATHER_MAP_API = context.getString(R.string.currentWeatherURL);
+            }
+
             URL url = new URL(String.format(OPEN_WEATHER_MAP_API, city,context.getString(R.string.openWeatherApiKey)));
             HttpURLConnection connection =
                     (HttpURLConnection) url.openConnection();

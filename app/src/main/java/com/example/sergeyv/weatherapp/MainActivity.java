@@ -3,6 +3,7 @@ package com.example.sergeyv.weatherapp;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.Configuration;
 import android.graphics.Bitmap;
 import android.graphics.BitmapFactory;
 import android.graphics.Color;
@@ -26,6 +27,7 @@ import android.widget.TextView;
 
 import com.example.sergeyv.weatherapp.model.Forecast;
 import com.example.sergeyv.weatherapp.model.Settings;
+import com.example.sergeyv.weatherapp.model.ThreeHourForecast;
 
 import org.json.JSONObject;
 
@@ -61,7 +63,19 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main);
+        int ot = getResources().getConfiguration().orientation;
+        switch (ot) {
+            case Configuration.ORIENTATION_LANDSCAPE:
+                setContentView(R.layout.activity_main_land);
+                break;
+            case Configuration.ORIENTATION_PORTRAIT:
+                setContentView(R.layout.activity_main);
+                break;
+        }
+        //setContentView(R.layout.activity_main);
+
+        //DEBUG
+        //getSharedPreferences(MY_PREFS_NAME, 0).edit().clear().commit();
 
         tvDateTime = (TextView) findViewById(R.id.tvDateTime);
         tvTitle = (TextView) findViewById(R.id.tvTitle);
@@ -79,7 +93,7 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (prefs != null) {
-            Settings.textColour = prefs.getInt("textColor", 0);
+            Settings.textColour = prefs.getInt("textColor", Color.WHITE);
             Settings.city = prefs.getString("city", null);
 
         }
@@ -93,7 +107,11 @@ public class MainActivity extends AppCompatActivity {
             tvCity.setText(Settings.city);
         }
         else{
-            Snackbar mySnackbar = Snackbar.make(findViewById(R.id.constraintLayout), R.string.noSettingsSet, Snackbar.LENGTH_LONG);
+            String defaultCity = getString(R.string.defaultCity);
+            String noSettings = getString(R.string.noSettingsSet);
+            Snackbar mySnackbar = Snackbar.make(findViewById(R.id.constraintLayout),
+                    String.format(noSettings,defaultCity), Snackbar.LENGTH_LONG);
+            Settings.city = defaultCity;
             mySnackbar.show();
         }
 
@@ -124,7 +142,8 @@ public class MainActivity extends AppCompatActivity {
         final Context context = this;
         new Thread(){
             public void run(){
-                final JSONObject json = FetchWeather.getJSON(context, cityName);
+                final JSONObject json = FetchWeather.getJSON(context, cityName, "forecast");
+                final JSONObject currentWeather = FetchWeather.getJSON(context, cityName, "weather");
                 if(json == null){
                     handler.post(new Runnable(){
                         public void run(){
@@ -136,7 +155,7 @@ public class MainActivity extends AppCompatActivity {
                 } else {
                     handler.post(new Runnable(){
                         public void run(){
-                            renderWeather(json);
+                            renderWeather(json, currentWeather);
                         }
                     });
                 }
@@ -144,7 +163,7 @@ public class MainActivity extends AppCompatActivity {
         }.start();
     }
 
-    private void renderWeather(JSONObject json){
+    private void renderWeather(JSONObject json, JSONObject currentWeather){
         try {
             //cityField.setText(json.getString("name").toUpperCase(Locale.UK) +
             //       ", " +
@@ -153,6 +172,7 @@ public class MainActivity extends AppCompatActivity {
             //JSONObject details = json.getJSONArray("weather").getJSONObject(0);
             //JSONObject main = json.getJSONObject("main");
             Forecast f = new Forecast(json);
+            ThreeHourForecast current = new ThreeHourForecast(currentWeather);
 //            detailsField.setText(
 //                    details.getString("description").toUpperCase(Locale.US) +
 //                            "\n" + "Humidity: " + main.getString("humidity") + "%" +
@@ -161,11 +181,11 @@ public class MainActivity extends AppCompatActivity {
 //            currentTemperatureField.setText(
 //                    String.format("%.2f", main.getDouble("temp"))+ " ℃");
 //
-            DateFormat df = DateFormat.getDateTimeInstance();
+//            DateFormat df = DateFormat.getDateTimeInstance();
             //String updatedOn = df.format(new Date(json.getLong("dt")*1000));
-            String updatedOn = df.format(new Date());
+            //String updatedOn = df.format(new Date());
             //tvTemperature.setText();
-            tvDateTime.setText("Last update: " + updatedOn);
+            tvDateTime.setText("Updated: " + current.date);
             String temp = getString(R.string.weatherInfo);
 
             //var iconUrl = "http://openweathermap.org/img/w/" + iconCode + ".png";
@@ -175,7 +195,7 @@ public class MainActivity extends AppCompatActivity {
             String[] weathers = f.icons.toArray(new String[0]);
             String[] temps = f.temps.toArray(new String[0]);
 
-            tvTemperature.setText(String.format(temp, temps[0],f.maxTemp,f.minTemp ) );
+            tvTemperature.setText(String.format(temp, current.temp,f.maxTemp,f.minTemp ) );
             //URL url = new URL("http://openweathermap.org/img/w/" + details.getString("icon") + ".png");
             weatherGrid.setAdapter(new WeatherAdapter(this,times, weathers));
 
@@ -204,7 +224,7 @@ public class MainActivity extends AppCompatActivity {
         if (Settings.city != null){
             updateWeatherData(Settings.city);
         }else{
-            updateWeatherData("Perth,WA");
+            updateWeatherData(getString(R.string.defaultCity));
         }
     }
 
