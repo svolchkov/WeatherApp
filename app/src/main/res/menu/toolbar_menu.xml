@@ -3,6 +3,12 @@
     xmlns:app="http://schemas.android.com/apk/res-auto">
     <!-- "Mark Favorite", should appear as action button if possible -->
     <item
+        android:id="@+id/weather_detail"
+        android:icon="@drawable/ic_cloud_queue_black_24dp"
+        android:title="Weather Detail"
+        app:showAsAction="always">
+    </item>
+    <item
         android:id="@+id/preferences"
         android:icon="@drawable/ic_settings_black_24dp"
         android:title="@string/preferences"

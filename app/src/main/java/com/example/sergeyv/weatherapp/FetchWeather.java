@@ -25,7 +25,10 @@ public class FetchWeather {
             String OPEN_WEATHER_MAP_API = "";
             if (weatherMode == "forecast"){
                 OPEN_WEATHER_MAP_API = context.getString(R.string.forecastURL);
-            }else{
+            }else if (weatherMode == "daily"){
+                OPEN_WEATHER_MAP_API = context.getString(R.string.dailyForecastURL);
+            }
+            else{
                 OPEN_WEATHER_MAP_API = context.getString(R.string.currentWeatherURL);
             }
 
