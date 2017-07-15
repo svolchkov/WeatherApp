@@ -24,7 +24,7 @@ public class DailyForecast {
 
     public DailyForecast(JSONObject json) {
         threeHourForecasts = new ArrayList<OneDayForecast>();
-        try {
+        try{
             JSONArray forecasts = json.getJSONArray("list");
             for (int i = 0; i < forecasts.length(); i++) {
                 JSONObject forecast = forecasts.getJSONObject(i);

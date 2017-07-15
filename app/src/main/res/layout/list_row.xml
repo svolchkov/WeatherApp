@@ -7,8 +7,9 @@
     android:paddingBottom="10dp">
     <ImageView
         android:id="@+id/icon"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="60dp"
+        android:layout_height="60dp"
+        android:scaleType="fitXY"
         android:layout_gravity="center_vertical"
         android:padding="2dip"
         />
@@ -20,7 +21,11 @@
             android:id="@+id/date"
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
-            android:textSize="15sp"
+            android:textSize="18sp"
+            android:layout_gravity="right"
+            android:paddingBottom="5dp"
+            android:paddingTop="5dp"
+            android:paddingRight="10dp"
             android:textColor="@android:color/white"
             android:textStyle="bold"/>
         <TextView
@@ -35,6 +40,6 @@
             android:layout_width="wrap_content"
             android:layout_height="wrap_content"
             android:textColor="@android:color/white"
-            android:textSize="15sp"/>
+            android:textSize="18sp"/>
     </LinearLayout>
 </LinearLayout>

@@ -24,7 +24,7 @@ public class OneDayForecast {
     public OneDayForecast(JSONObject json){
         try{
             this.rain = 0.0;
-            JSONObject weather = json.getJSONObject("weather");
+            //JSONArray weather = json.getJSONArray("weather");
             JSONObject details = json.getJSONArray("weather").getJSONObject(0);
             JSONObject temp = json.getJSONObject("temp");
             DateFormat df = new SimpleDateFormat("EE, MMM dd");
@@ -35,7 +35,7 @@ public class OneDayForecast {
             this.maxTemp = temp.getDouble("max");
             this.minTemp = temp.getDouble("min");
             this.icon = details.getString("icon");
-            this.rain = weather.getDouble("rain");
+            this.rain = json.getDouble("rain");
 
         } catch (JSONException e){
             Log.e("MYAPP","JSONException",e);
