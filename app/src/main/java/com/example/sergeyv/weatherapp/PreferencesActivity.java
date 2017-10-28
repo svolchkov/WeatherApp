@@ -25,6 +25,7 @@ import android.widget.AdapterView;
 import android.widget.ArrayAdapter;
 import android.widget.AutoCompleteTextView;
 import android.widget.Filter;
+import android.widget.ImageView;
 import android.widget.ListView;
 import android.widget.MultiAutoCompleteTextView;
 import android.widget.Spinner;
@@ -48,6 +49,8 @@ public class PreferencesActivity extends AppCompatActivity {
     public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_"; // name of preferences file
     SharedPreferences prefs;
 
+    HashMap<String,String> countryNamesToCodes = new HashMap<String,String>();
+    HashMap<String,String> countryCodesToNames = new HashMap<String,String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -85,14 +88,18 @@ public class PreferencesActivity extends AppCompatActivity {
         ArrayList<String> countryNames = new ArrayList<String>();
         for(String cc : stringArray){
             if (cc.split("\\|").length > 1){
-                String country = cc.split("\\|")[1];
+                String[] data = cc.split("\\|");
+                String countryCode = data[0];
+                String country = data[1];
                 countryNames.add(country);
+                countryNamesToCodes.put(country, countryCode);
+                countryCodesToNames.put(countryCode,country);
             }
 
         }
 
         countryAdapter
-                = new AutoSuggestAdapter(this, R.layout.spinner_item, countryNames);
+                = new AutoSuggestAdapter(this, R.layout.country_flag, countryNames);
 
         countryEdit = (AutoCompleteTextView) findViewById(R.id.search_box);
 
@@ -361,8 +368,21 @@ public class PreferencesActivity extends AppCompatActivity {
 
             String item = items.get(position);
 
-            if (item != null && view instanceof TextView) {
-                ((TextView) view).setText(item);
+            ImageView weatherIcon = (ImageView) view
+                    .findViewById(R.id.flag_icon);
+            String code = countryNamesToCodes.get(item);
+            if (code != null){
+                code = code.toLowerCase();
+                String mDrawableName = "flags_" + code;
+                int resID = getResources().getIdentifier(mDrawableName , "drawable", getPackageName());
+                weatherIcon.setImageResource(resID);
+            }
+
+
+            if (item != null) {
+                TextView countryName = (TextView) view
+                        .findViewById(R.id.country_name);
+                countryName.setText(item);
             }
 
             return view;
