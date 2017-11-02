@@ -34,16 +34,18 @@ import android.widget.TextView;
 import com.example.sergeyv.weatherapp.model.Settings;
 
 import java.util.ArrayList;
+import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
+import java.util.Map;
 
 public class PreferencesActivity extends AppCompatActivity {
 
     private Toolbar toolbar;
-    Spinner spCities;
+    AutoCompleteTextView spCities;
     //Spinner spTextColors;
     private AutoCompleteTextView countryEdit;
-    private ArrayAdapter<String> adapter = null;
+    private ArrayAdapter<String> cityAdapter = null;
     private ArrayAdapter<String> countryAdapter = null;
 
     public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_"; // name of preferences file
@@ -51,6 +53,8 @@ public class PreferencesActivity extends AppCompatActivity {
 
     HashMap<String,String> countryNamesToCodes = new HashMap<String,String>();
     HashMap<String,String> countryCodesToNames = new HashMap<String,String>();
+    HashMap<String,List<String>> citiesByCountry = new HashMap<String,List<String>>();
+
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -74,15 +78,15 @@ public class PreferencesActivity extends AppCompatActivity {
 
 
 
-        spCities = (Spinner) findViewById(R.id.spCities);
-        ArrayAdapter<CharSequence> adapter = ArrayAdapter.createFromResource(this,
-                R.array.cities_array, R.layout.spinner_item);
-        adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
-        spCities.setAdapter(adapter);
+        spCities = (AutoCompleteTextView) findViewById(R.id.spCities);
+        //cityAdapter = ArrayAdapter.createFromResource(this,
+        //        R.array.cities_array, R.layout.spinner_item);
+        //adapter.setDropDownViewResource(android.R.layout.simple_spinner_dropdown_item);
+        //spCities.setAdapter(adapter);
 
-        ArrayAdapter myAdap = (ArrayAdapter) spCities.getAdapter(); //cast to an ArrayAdapter
-        int spinnerPosition = myAdap.getPosition(Settings.city);
-        spCities.setSelection(spinnerPosition);
+        //ArrayAdapter myAdap = (ArrayAdapter) spCities.getAdapter(); //cast to an ArrayAdapter
+        //int spinnerPosition = myAdap.getPosition(Settings.city);
+        //spCities.setSelection(spinnerPosition);
 
         String[] stringArray = getResources().getStringArray(R.array.countryCodes_array);
         ArrayList<String> countryNames = new ArrayList<String>();
@@ -97,6 +101,28 @@ public class PreferencesActivity extends AppCompatActivity {
             }
 
         }
+
+        String[] cityArray = getResources().getStringArray(R.array.world_cities_array);
+        for(String cc : cityArray){
+            if (cc.split("\\|").length > 2){
+                String[] data = cc.split("\\|");
+                String city = data[1];
+                String countryCode = data[2];
+                if (!citiesByCountry.containsKey(countryCode)){
+                    citiesByCountry.put(countryCode, new ArrayList<String>());
+                }
+                citiesByCountry.get(countryCode).add(city);
+            }
+
+        }
+
+        //for(Map.Entry<String, List<String>> entry : citiesByCountry.entrySet()) {
+        //    String key = entry.getKey();
+        //    ArrayList value = (ArrayList) entry.getValue();
+
+            // do what you have to do here
+            // In your case, another loop.
+        //}
 
         countryAdapter
                 = new AutoSuggestAdapter(this, R.layout.country_flag, countryNames);
@@ -216,6 +242,18 @@ public class PreferencesActivity extends AppCompatActivity {
         public void afterTextChanged(Editable s) {
             //okButton.setEnabled(countryEdit.getText().toString().trim()
             //        .length() > 0);
+            String countryName = countryEdit.getText().toString().trim();
+            if (countryNamesToCodes.containsKey(countryName)) {
+                String countryCode = countryNamesToCodes.get(countryName);
+                if (citiesByCountry.containsKey(countryCode)){
+                    ArrayList<String> cities = (ArrayList)citiesByCountry.get(countryCode);
+                    Collections.sort(cities);
+                    cityAdapter = new AutoSuggestAdapterCity(PreferencesActivity.this,
+                            R.layout.spinner_item, cities);
+                    spCities.setAdapter(cityAdapter);
+                }
+
+            }
         }
 
         public void beforeTextChanged(CharSequence s, int start, int count,
@@ -317,11 +355,11 @@ public class PreferencesActivity extends AppCompatActivity {
 //                    break;
 //            }
 
-            Settings.city = spCities.getSelectedItem().toString();
+            //Settings.city = spCities.getSelectedItem().toString();
 
-            editor.putInt("textColor", Settings.textColour);
-            editor.putString("city", Settings.city);
-            editor.apply();
+            //editor.putInt("textColor", Settings.textColour);
+            //editor.putString("city", Settings.city);
+            //editor.apply();
 
 
         }
@@ -383,6 +421,89 @@ public class PreferencesActivity extends AppCompatActivity {
                 TextView countryName = (TextView) view
                         .findViewById(R.id.country_name);
                 countryName.setText(item);
+            }
+
+            return view;
+        }
+
+        @Override
+        public Filter getFilter() {
+            return nameFilter;
+        }
+
+        Filter nameFilter = new Filter() {
+            @Override
+            public CharSequence convertResultToString(Object resultValue) {
+                String str = (String) resultValue;
+                return str;
+            }
+
+            @Override
+            protected FilterResults performFiltering(CharSequence constraint) {
+                if (constraint != null) {
+                    suggestions.clear();
+                    for (String names : tempItems) {
+                        if (names.toLowerCase().startsWith(constraint.toString().toLowerCase())) {
+                            suggestions.add(names);
+                        }
+                    }
+                    FilterResults filterResults = new FilterResults();
+                    filterResults.values = suggestions;
+                    filterResults.count = suggestions.size();
+                    return filterResults;
+                } else {
+                    return new FilterResults();
+                }
+            }
+
+            @Override
+            protected void publishResults(CharSequence constraint, FilterResults results) {
+                List<String> filterList = (ArrayList<String>) results.values;
+                if (results != null && results.count > 0) {
+                    clear();
+                    for (String item : filterList) {
+                        add(item);
+                        notifyDataSetChanged();
+                    }
+                }
+            }
+        };
+
+    }
+
+    public class AutoSuggestAdapterCity extends ArrayAdapter {
+        private Context context;
+        private int resource;
+        private List<String> items;
+        private List<String> tempItems;
+        private List<String> suggestions;
+
+        public AutoSuggestAdapterCity(Context context, int resource, List<String> items) {
+            super(context, resource, 0, items);
+
+            this.context = context;
+            this.resource = resource;
+            this.items = items;
+            tempItems = new ArrayList<String>(items);
+            suggestions = new ArrayList<String>();
+        }
+
+        @Override
+        public View getView(int position, View convertView, ViewGroup parent) {
+            View view = convertView;
+            if (convertView == null) {
+                LayoutInflater inflater = (LayoutInflater) context.getSystemService(Context.LAYOUT_INFLATER_SERVICE);
+                view = inflater.inflate(resource, parent, false);
+            }
+
+            String item = items.get(position);
+
+
+
+            if (item != null) {
+                TextView cityName = (TextView) view
+                        .findViewById(R.id.city_name);
+                cityName.setText(item);
             }
 
             return view;

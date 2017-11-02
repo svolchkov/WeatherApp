@@ -61,7 +61,7 @@
             tools:layout_editor_absoluteX="122dp"
             tools:layout_editor_absoluteY="48dp" />
 
-        <Spinner
+        <AutoCompleteTextView
             android:id="@+id/spCities"
             android:layout_width="match_parent"
             android:layout_height="wrap_content"

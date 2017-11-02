@@ -6,7 +6,7 @@
         <item>3621849|San Jose,San José|CR</item>
         <item>3621841|San Jose,Provincia de Alajuela|CR</item>
         <item>572090|Borovoy,Kareliya Republits|RU</item>
-        <item>1508894|Borovoy,Kemerovskaya oblast'|RU</item>
+        <item>1508894|Borovoy,Kemerovskaya oblast|RU</item>
         <item>673151|Mircea Voda,BR|RO</item>
         <item>673154|Mircea Voda,CT|RO</item>
         <item>3435734|Candelaria,Misiónes|AR</item>
@@ -61,12 +61,12 @@
         <item>3114957|Oria,PV|ES</item>
         <item>2513079|Oria,AL|ES</item>
         <item>512109|Pavlovka,Respublika Bashkortostan|RU</item>
-        <item>512133|Pavlovka,Ulyanovskaya oblast'|RU</item>
-        <item>512152|Pavlovka,Ulyanovskaya oblast'|RU</item>
+        <item>512133|Pavlovka,Ulyanovskaya oblast|RU</item>
+        <item>512152|Pavlovka,Ulyanovskaya oblast|RU</item>
         <item>4835461|Groton,CT|US</item>
         <item>5119513|Groton,NY|US</item>
-        <item>549610|Khomutovo,Orlovskaya oblast'|RU</item>
-        <item>2022342|Khomutovo,Irkutskaya oblast'|RU</item>
+        <item>549610|Khomutovo,Orlovskaya oblast|RU</item>
+        <item>2022342|Khomutovo,Irkutskaya oblast|RU</item>
         <item>700159|Mykolayivka,Odessa Oblast|UA</item>
         <item>2176123|Bentleigh,VIC|AU</item>
         <item>7932650|Bentleigh,VIC|AU</item>
@@ -103,10 +103,10 @@
         <item>5349984|Forestville,CA|US</item>
         <item>3533269|Agua Dulce,Ver.|MX</item>
         <item>3533268|Agua Dulce,Ver.|MX</item>
-        <item>500695|Rudnichnyy,Kirovskaya oblast'|RU</item>
-        <item>1493457|Rudnichnyy,Sverdlovskaya oblast'|RU</item>
-        <item>1493458|Rudnichnyy,Kemerovskaya oblast'|RU</item>
-        <item>509437|Pionerskiy,Kaliningradskaya oblast'|RU</item>
+        <item>500695|Rudnichnyy,Kirovskaya oblast|RU</item>
+        <item>1493457|Rudnichnyy,Sverdlovskaya oblast|RU</item>
+        <item>1493458|Rudnichnyy,Kemerovskaya oblast|RU</item>
+        <item>509437|Pionerskiy,Kaliningradskaya oblast|RU</item>
         <item>1494949|Pionerskiy,ХМАО|RU</item>
         <item>3006755|La Rochette,Île-de-France|FR</item>
         <item>3006758|La Rochette,Auvergne-Rhône-Alpes|FR</item>
@@ -114,8 +114,8 @@
         <item>1717053|Compostela,Davao Region|PH</item>
         <item>2815075|Waldenburg,BW|DE</item>
         <item>2815074|Waldenburg,SN|DE</item>
-        <item>1498205|Muromtsevo,Omskaya oblast'|RU</item>
-        <item>6930055|Muromtsevo,Vladimirskaya oblast'|RU</item>
+        <item>1498205|Muromtsevo,Omskaya oblast|RU</item>
+        <item>6930055|Muromtsevo,Vladimirskaya oblast|RU</item>
         <item>1715206|Del Carmen,Central Luzon|PH</item>
         <item>1715212|Del Carmen,Caraga|PH</item>
         <item>526652|Mikhnevo,МО|RU</item>
@@ -176,12 +176,12 @@
         <item>5249896|Cumberland,WI|US</item>
         <item>3594422|La Libertad,Petén|GT</item>
         <item>3594423|La Libertad,Huehuetenango|GT</item>
-        <item>2026895|Belogorsk,Amurskaya oblast'|RU</item>
-        <item>1510514|Belogorsk,Kemerovskaya oblast'|RU</item>
+        <item>2026895|Belogorsk,Amurskaya oblast|RU</item>
+        <item>1510514|Belogorsk,Kemerovskaya oblast|RU</item>
         <item>2661349|Buchs,SG|CH</item>
         <item>2661348|Buchs,AG|CH</item>
         <item>496564|Sernovodsk,Chechenskaya Republits|RU</item>
-        <item>496568|Sernovodsk,Samarskaya oblast'|RU</item>
+        <item>496568|Sernovodsk,Samarskaya oblast|RU</item>
         <item>4274828|Louisburg,KS|US</item>
         <item>4477296|Louisburg,NC|US</item>
         <item>5819881|Buffalo,WY|US</item>
@@ -215,7 +215,7 @@
         <item>1689144|San Luis,Caraga|PH</item>
         <item>1689145|San Luis,Northern Mindanao|PH</item>
         <item>1689146|San Luis,Rehiyon ng Davao|PH</item>
-        <item>545747|Komsomolets,Tambovskaya oblast'|RU</item>
+        <item>545747|Komsomolets,Tambovskaya oblast|RU</item>
         <item>545752|Komsomolets,Stavropolskiy kray|RU</item>
         <item>5088262|Keene,NH|US</item>
         <item>4702785|Keene,TX|US</item>
@@ -248,7 +248,7 @@
         <item>4168782|Plantation,FL|US</item>
         <item>4168784|Plantation,FL|US</item>
         <item>1540356|Raduzhnyy,ХМАО|RU</item>
-        <item>7117885|Raduzhnyy,Vladimirskaya oblast'|RU</item>
+        <item>7117885|Raduzhnyy,Vladimirskaya oblast|RU</item>
         <item>866054|Raduzhnyy,Komi Republits|RU</item>
         <item>5739936|McMinnville,OR|US</item>
         <item>4640882|McMinnville,TN|US</item>
@@ -261,7 +261,7 @@
         <item>4886038|Burnham,IL|US</item>
         <item>5182434|Burnham,PA|US</item>
         <item>1506260|Gornyak,Altayskiy kray|RU</item>
-        <item>1506258|Gornyak,Chelyabinskaya oblast'|RU</item>
+        <item>1506258|Gornyak,Chelyabinskaya oblast|RU</item>
         <item>750392|Bozkurt,Kastamonu|TR</item>
         <item>320606|Bozkurt,Denizli|TR</item>
         <item>676830|Gradinari,CS|RO</item>
@@ -358,13 +358,13 @@
         <item>4483174|Ogden,NC|US</item>
         <item>4869780|Ogden,IA|US</item>
         <item>499535|Sadovoye,Respublika Kalmykiya|RU</item>
-        <item>499528|Sadovoye,Voronezhskaya oblast'|RU</item>
-        <item>526354|Mirnyy,Ulyanovskaya oblast'|RU</item>
+        <item>499528|Sadovoye,Voronezhskaya oblast|RU</item>
+        <item>526354|Mirnyy,Ulyanovskaya oblast|RU</item>
         <item>2019951|Mirnyy,Sakha (Yakutiya) Republits|RU</item>
-        <item>526357|Mirnyy,Samarskaya oblast'|RU</item>
-        <item>831129|Mirnyy,Arkhangelskaya oblast'|RU</item>
-        <item>526346|Mirnyy,Arkhangelskaya oblast'|RU</item>
-        <item>526347|Mirnyy,Kirovskaya oblast'|RU</item>
+        <item>526357|Mirnyy,Samarskaya oblast|RU</item>
+        <item>831129|Mirnyy,Arkhangelskaya oblast|RU</item>
+        <item>526346|Mirnyy,Arkhangelskaya oblast|RU</item>
+        <item>526347|Mirnyy,Kirovskaya oblast|RU</item>
         <item>4499294|Williamston,NC|US</item>
         <item>4601167|Williamston,SC|US</item>
         <item>5015133|Williamston,MI|US</item>
@@ -508,8 +508,8 @@
         <item>683278|Bunesti,VS|RO</item>
         <item>683279|Bunesti,BV|RO</item>
         <item>683282|Bunesti,VL|RO</item>
-        <item>548408|Kirov,Kirovskaya oblast'|RU</item>
-        <item>548410|Kirov,Kaluzhskaya oblast'|RU</item>
+        <item>548408|Kirov,Kirovskaya oblast|RU</item>
+        <item>548410|Kirov,Kaluzhskaya oblast|RU</item>
         <item>1705503|Lourdes,Central Luzon|PH</item>
         <item>1705505|Lourdes,Central Luzon|PH</item>
         <item>1705509|Lourdes,Bicol|PH</item>
@@ -588,8 +588,8 @@
         <item>669043|Recea,MM|RO</item>
         <item>669051|Recea,BV|RO</item>
         <item>669054|Recea,AG|RO</item>
-        <item>695594|Rivne,Rivnens'ka oblast|UA</item>
-        <item>695365|Rivne,Kirovohrads'ka oblast|UA</item>
+        <item>695594|Rivne,Rivnenska oblast|UA</item>
+        <item>695365|Rivne,Kirovohradska oblast|UA</item>
         <item>4891051|Elmwood Park,IL|US</item>
         <item>5097627|Elmwood Park,NJ|US</item>
         <item>5316201|Sun City,AZ|US</item>
@@ -612,7 +612,7 @@
         <item>4887574|Chillicothe,IL|US</item>
         <item>5129603|Oceanside,NY|US</item>
         <item>5378771|Oceanside,CA|US</item>
-        <item>1510370|Belyy Yar,Tomskaya oblast'|RU</item>
+        <item>1510370|Belyy Yar,Tomskaya oblast|RU</item>
         <item>1510377|Belyy Yar,Khakasiya Republits|RU</item>
         <item>1724519|Bobon,Central Luzon|PH</item>
         <item>1724535|Bobon,Eastern Visayas|PH</item>
@@ -638,12 +638,12 @@
         <item>5475433|Las Vegas,NM|US</item>
         <item>2866512|Nentershausen,RP|DE</item>
         <item>2866511|Nentershausen,HE|DE</item>
-        <item>507421|Pokrovskoye,Orlovskaya oblast'|RU</item>
-        <item>507427|Pokrovskoye,Rostovskaya oblast'|RU</item>
+        <item>507421|Pokrovskoye,Orlovskaya oblast|RU</item>
+        <item>507427|Pokrovskoye,Rostovskaya oblast|RU</item>
         <item>507464|Pokrovskoye,Dagestan Republits|RU</item>
-        <item>1494603|Pokrovskoye,Sverdlovskaya oblast'|RU</item>
+        <item>1494603|Pokrovskoye,Sverdlovskaya oblast|RU</item>
         <item>1498920|Mezhdurechensk,Кемеровская|RU</item>
-        <item>527300|Mezhdurechensk,Samarskaya oblast'|RU</item>
+        <item>527300|Mezhdurechensk,Samarskaya oblast|RU</item>
         <item>667691|Schela,GL|RO</item>
         <item>667692|Schela,GJ|RO</item>
         <item>4893070|Franklin Park,IL|US</item>
@@ -667,11 +667,11 @@
         <item>5146946|Bellaire,OH|US</item>
         <item>678752|Dumbrava,TM|RO</item>
         <item>678755|Dumbrava,PH|RO</item>
-        <item>1489246|Troitsk,Chelyabinskaya oblast'|RU</item>
+        <item>1489246|Troitsk,Chelyabinskaya oblast|RU</item>
         <item>481608|Troitsk,МО|RU</item>
-        <item>1489202|Troitsk,Omskaya oblast'|RU</item>
-        <item>572500|Borisovka,Belgorodskaya oblast'|RU</item>
-        <item>805775|Borisovka,Belgorodskaya oblast'|RU</item>
+        <item>1489202|Troitsk,Omskaya oblast|RU</item>
+        <item>572500|Borisovka,Belgorodskaya oblast|RU</item>
+        <item>805775|Borisovka,Belgorodskaya oblast|RU</item>
         <item>487246|Strelka,Krasnodarskiy kray|RU</item>
         <item>1490805|Strelka,Krasnoyarskiy kray|RU</item>
         <item>2929804|Erbach,BW|DE</item>
@@ -710,7 +710,7 @@
         <item>1720055|Calumpang,Calabarzon|PH</item>
         <item>1720056|Calumpang,Calabarzon|PH</item>
         <item>1720057|Calumpang,Calabarzon|PH</item>
-        <item>712423|Berehove,Zakarpats'ka oblast|UA</item>
+        <item>712423|Berehove,Zakarpatska oblast|UA</item>
         <item>4123037|Mountain Home,AR|US</item>
         <item>4481046|Mountain Home,NC|US</item>
         <item>5601615|Mountain Home,ID|US</item>
@@ -826,8 +826,8 @@
         <item>5258575|Kimberly,WI|US</item>
         <item>5597783|Kimberly,ID|US</item>
         <item>2022064|Kirovskiy,Primorskiy kray|RU</item>
-        <item>548383|Kirovskiy,Kurskaya oblast'|RU</item>
-        <item>548387|Kirovskiy,Astrakhanskaya oblast'|RU</item>
+        <item>548383|Kirovskiy,Kurskaya oblast|RU</item>
+        <item>548387|Kirovskiy,Astrakhanskaya oblast|RU</item>
         <item>2892460|Kastl,BY|DE</item>
         <item>2892461|Kastl,BY|DE</item>
         <item>1855580|Naruto,Tokushima-ken|JP</item>
@@ -878,7 +878,7 @@
         <item>4178215|Whitfield,FL|US</item>
         <item>5219331|Whitfield,PA|US</item>
         <item>496346|Severnyy,МО|RU</item>
-        <item>496358|Severnyy,Belgorodskaya oblast'|RU</item>
+        <item>496358|Severnyy,Belgorodskaya oblast|RU</item>
         <item>1799383|Ninghai,Shandong Sheng|CN</item>
         <item>1799384|Ninghai,Zhejiang Sheng|CN</item>
         <item>5198034|Limerick,PA|US</item>
@@ -938,10 +938,10 @@
         <item>4299531|Ludlow,KY|US</item>
         <item>4278471|Russell,KS|US</item>
         <item>4306972|Russell,KY|US</item>
-        <item>510814|Pervomayskoye,Leningradskaya oblast'|RU</item>
+        <item>510814|Pervomayskoye,Leningradskaya oblast|RU</item>
         <item>510842|Pervomayskoye,Karachaevo-Cherkesskaya Republits|RU</item>
         <item>797213|Pervomayskoye,Dagestan Republits|RU</item>
-        <item>1495256|Pervomayskoye,Tomskaya oblast'|RU</item>
+        <item>1495256|Pervomayskoye,Tomskaya oblast|RU</item>
         <item>1495259|Pervomayskoye,Altayskiy kray|RU</item>
         <item>1694826|General Tinio,Central Luzon|PH</item>
         <item>1713018|General Tinio,Central Luzon|PH</item>
@@ -977,9 +977,9 @@
         <item>4603284|Athens,TN|US</item>
         <item>4671545|Athens,TX|US</item>
         <item>5178651|Athens,PA|US</item>
-        <item>508362|Podgornoye,Voronezhskaya oblast'|RU</item>
-        <item>508366|Podgornoye,Voronezhskaya oblast'|RU</item>
-        <item>1494790|Podgornoye,Tomskaya oblast'|RU</item>
+        <item>508362|Podgornoye,Voronezhskaya oblast|RU</item>
+        <item>508366|Podgornoye,Voronezhskaya oblast|RU</item>
+        <item>1494790|Podgornoye,Tomskaya oblast|RU</item>
         <item>2933965|Ebersbach,SN|DE</item>
         <item>3209001|Ebersbach,SN|DE</item>
         <item>2908873|Hausen,RP|DE</item>
@@ -1019,7 +1019,7 @@
         <item>1258724|Ramapuram,AP|IN</item>
         <item>7932612|Glen Iris,VIC|AU</item>
         <item>2079707|Glen Iris,WA|AU</item>
-        <item>709078|Frunze,Luhans'ka oblast|UA</item>
+        <item>709078|Frunze,Luhanska oblast|UA</item>
         <item>3530757|Cholula,Pue.|MX</item>
         <item>3530756|Cholula,Méx.|MX</item>
         <item>1694775|Parang,ARMM|PH</item>
@@ -1060,7 +1060,7 @@
         <item>4678357|Cameron,TX|US</item>
         <item>1699060|Murcia,Western Visayas|PH</item>
         <item>1699059|Murcia,Central Luzon|PH</item>
-        <item>463343|Zheleznogorsk,Kurskaya oblast'|RU</item>
+        <item>463343|Zheleznogorsk,Kurskaya oblast|RU</item>
         <item>1538635|Zheleznogorsk,Krasnoyarskiy kray|RU</item>
         <item>4558475|Hanover,PA|US</item>
         <item>4938836|Hanover,MA|US</item>
@@ -1083,7 +1083,7 @@
         <item>1861107|Izumi,Ōsaka-fu|JP</item>
         <item>1861108|Izumi,Kagoshima-ken|JP</item>
         <item>1504075|Kazachinskoye,Krasnoyarskiy kray|RU</item>
-        <item>2023029|Kazachinskoye,Irkutskaya oblast'|RU</item>
+        <item>2023029|Kazachinskoye,Irkutskaya oblast|RU</item>
         <item>2939819|Coswig,SA|DE</item>
         <item>2939820|Coswig,SN|DE</item>
         <item>4236191|Collinsville,IL|US</item>
@@ -1190,7 +1190,7 @@
         <item>2824229|Tann,HE|DE</item>
         <item>2824230|Tann,BY|DE</item>
         <item>556463|Imeni Vorovskogo,МО|RU</item>
-        <item>556462|Imeni Vorovskogo,Vladimirskaya oblast'|RU</item>
+        <item>556462|Imeni Vorovskogo,Vladimirskaya oblast|RU</item>
         <item>1800498|Mingshui,Shandong Sheng|CN</item>
         <item>2035758|Mingshui,Heilongjiang Sheng|CN</item>
         <item>296791|Yesilyurt,Malatya|TR</item>
@@ -1226,8 +1226,8 @@
         <item>5087639|Hopkinton,NH|US</item>
         <item>5222680|Hopkinton,RI|US</item>
         <item>872144|Sovkhoznyy,Krasnodarskiy kray|RU</item>
-        <item>1491215|Sovkhoznyy,Sverdlovskaya oblast'|RU</item>
-        <item>1493273|Sovkhoznyy,Sverdlovskaya oblast'|RU</item>
+        <item>1491215|Sovkhoznyy,Sverdlovskaya oblast|RU</item>
+        <item>1493273|Sovkhoznyy,Sverdlovskaya oblast|RU</item>
         <item>1859094|Koga,Fukuoka-ken|JP</item>
         <item>1859093|Koga,Ibaraki-ken|JP</item>
         <item>2656396|Bangor,Northern Ireland|GB</item>
@@ -1243,7 +1243,7 @@
         <item>673386|Mihailesti,BZ|RO</item>
         <item>673387|Mihailesti,GR|RO</item>
         <item>2020841|Leninskoye,Еврейская Аутономус Область|RU</item>
-        <item>536035|Leninskoye,Kirovskaya oblast'|RU</item>
+        <item>536035|Leninskoye,Kirovskaya oblast|RU</item>
         <item>5043556|Rockford,MN|US</item>
         <item>4907959|Rockford,IL|US</item>
         <item>5007436|Rockford,MI|US</item>
@@ -1264,7 +1264,7 @@
         <item>1269447|Jalalabad,UP|IN</item>
         <item>1269445|Jalalabad,PB|IN</item>
         <item>1269446|Jalalabad,UP|IN</item>
-        <item>489778|Spasskoye,Nizhegorodskaya oblast'|RU</item>
+        <item>489778|Spasskoye,Nizhegorodskaya oblast|RU</item>
         <item>2016183|Spasskoye,Primorskiy kray|RU</item>
         <item>1524298|Aqsu,Pavlodar Province|KZ</item>
         <item>1526271|Aqsu,Akmola Province|KZ</item>
@@ -1305,8 +1305,8 @@
         <item>1258876|Rajgarh,MP|IN</item>
         <item>1258867|Rajgarh,HP|IN</item>
         <item>496385|Severnoye,Stavropolskiy kray|RU</item>
-        <item>496381|Severnoye,Orenburgskaya oblast'|RU</item>
-        <item>1492607|Severnoye,Novosibirskaya oblast'|RU</item>
+        <item>496381|Severnoye,Orenburgskaya oblast|RU</item>
+        <item>1492607|Severnoye,Novosibirskaya oblast|RU</item>
         <item>4364537|Olney,MD|US</item>
         <item>4246382|Olney,IL|US</item>
         <item>4716683|Olney,TX|US</item>
@@ -1317,7 +1317,7 @@
         <item>5046063|Savage,MN|US</item>
         <item>4368879|Savage,MD|US</item>
         <item>564719|Dubna,МО|RU</item>
-        <item>564723|Dubna,Tulskaya oblast'|RU</item>
+        <item>564723|Dubna,Tulskaya oblast|RU</item>
         <item>2749450|Oosterhout,NB|NL</item>
         <item>2749449|Oosterhout,GE|NL</item>
         <item>762390|Piaski,lubelskie|PL</item>
@@ -1526,7 +1526,7 @@
         <item>4638308|Louisville,TN|US</item>
         <item>5161347|Louisville,OH|US</item>
         <item>551439|Kazanskaya,Krasnodarskiy kray|RU</item>
-        <item>551438|Kazanskaya,Rostovskaya oblast'|RU</item>
+        <item>551438|Kazanskaya,Rostovskaya oblast|RU</item>
         <item>4261032|Martinsville,IN|US</item>
         <item>4771808|Martinsville,VA|US</item>
         <item>5100924|Martinsville,NJ|US</item>
@@ -1564,10 +1564,10 @@
         <item>1688051|Santa Maria,MIMAROPA|PH</item>
         <item>1688055|Santa Maria,Caraga|PH</item>
         <item>1688056|Santa Maria,Caraga|PH</item>
-        <item>565284|Donskoye,Tambovskaya oblast'|RU</item>
+        <item>565284|Donskoye,Tambovskaya oblast|RU</item>
         <item>565289|Donskoye,Stavropolskiy kray|RU</item>
-        <item>565285|Donskoye,Lipetskaya oblast'|RU</item>
-        <item>2609904|Donskoye,Kaliningradskaya oblast'|RU</item>
+        <item>565285|Donskoye,Lipetskaya oblast|RU</item>
+        <item>2609904|Donskoye,Kaliningradskaya oblast|RU</item>
         <item>4352053|Columbia,MD|US</item>
         <item>4381982|Columbia,MO|US</item>
         <item>4575352|Columbia,SC|US</item>
@@ -1580,7 +1580,7 @@
         <item>3531576|Cardenas,Tab.|MX</item>
         <item>3531574|Cardenas,S.L.P.|MX</item>
         <item>514706|Osa,Permskiy kray|RU</item>
-        <item>2018301|Osa,Irkutskaya oblast'|RU</item>
+        <item>2018301|Osa,Irkutskaya oblast|RU</item>
         <item>4993125|Forest Hills,MI|US</item>
         <item>4623039|Forest Hills,TN|US</item>
         <item>5189981|Forest Hills,PA|US</item>
@@ -1631,7 +1631,7 @@
         <item>4127359|Prairie Grove,AR|US</item>
         <item>4906641|Prairie Grove,IL|US</item>
         <item>707451|Ivanivka,Odessa Oblast|UA</item>
-        <item>707453|Ivanivka,Khersons'ka oblast|UA</item>
+        <item>707453|Ivanivka,Khersonska oblast|UA</item>
         <item>4115181|Hope,AR|US</item>
         <item>4259115|Hope,IN|US</item>
         <item>662914|Viisoara,BT|RO</item>
@@ -1663,10 +1663,10 @@
         <item>1717259|Cogon,Central Visayas|PH</item>
         <item>5879400|Anchorage,AK|US</item>
         <item>4282497|Anchorage,KY|US</item>
-        <item>710947|Chapayevka,Kyivs'ka oblast|UA</item>
-        <item>710950|Chapayevka,Zaporiz'ka oblast|UA</item>
-        <item>473762|Vidyayevo,Murmanskaya oblast'|RU</item>
-        <item>795235|Vidyayevo,Murmanskaya oblast'|RU</item>
+        <item>710947|Chapayevka,Kyivska oblast|UA</item>
+        <item>710950|Chapayevka,Zaporizka oblast|UA</item>
+        <item>473762|Vidyayevo,Murmanskaya oblast|RU</item>
+        <item>795235|Vidyayevo,Murmanskaya oblast|RU</item>
         <item>4215251|Pembroke,GA|US</item>
         <item>4484490|Pembroke,NC|US</item>
         <item>5090918|Pembroke,NH|US</item>
@@ -1806,10 +1806,10 @@
         <item>3461089|Ipora,PR|BR</item>
         <item>771384|Grojec,mazowieckie|PL</item>
         <item>3098277|Grojec,małopolskie|PL</item>
-        <item>542109|Krasnoye,Lipetskaya oblast'|RU</item>
-        <item>542121|Krasnoye,Belgorodskaya oblast'|RU</item>
+        <item>542109|Krasnoye,Lipetskaya oblast|RU</item>
+        <item>542121|Krasnoye,Belgorodskaya oblast|RU</item>
         <item>542125|Krasnoye,Krasnodarskiy kray|RU</item>
-        <item>1502013|Krasnoye,Kemerovskaya oblast'|RU</item>
+        <item>1502013|Krasnoye,Kemerovskaya oblast|RU</item>
         <item>3980844|Tuxpan,Jal.|MX</item>
         <item>3980843|Tuxpan,Mich.|MX</item>
         <item>4189612|Country Club Estates,GA|US</item>
@@ -1832,7 +1832,7 @@
         <item>675840|Ianca,BR|RO</item>
         <item>675841|Ianca,OT|RO</item>
         <item>797411|Stepnoye,Stavropolskiy kray|RU</item>
-        <item>487543|Stepnoye,Saratovskaya oblast'|RU</item>
+        <item>487543|Stepnoye,Saratovskaya oblast|RU</item>
         <item>3393400|Pacatuba,CE|BR</item>
         <item>3455637|Pacatuba,SE|BR</item>
         <item>5359777|Irvine,CA|US</item>
@@ -1840,8 +1840,8 @@
         <item>4095392|Vernon,AL|US</item>
         <item>4739078|Vernon,TX|US</item>
         <item>471501|Vostochnyy,Moskva|RU</item>
-        <item>471499|Vostochnyy,Kirovskaya oblast'|RU</item>
-        <item>1486795|Vostochnyy,Sverdlovskaya oblast'|RU</item>
+        <item>471499|Vostochnyy,Kirovskaya oblast|RU</item>
+        <item>1486795|Vostochnyy,Sverdlovskaya oblast|RU</item>
         <item>4633419|Johnson City,TN|US</item>
         <item>5122794|Johnson City,NY|US</item>
         <item>3667728|Sucre,Sucre|CO</item>
@@ -1849,7 +1849,7 @@
         <item>4166723|Ocean City,FL|US</item>
         <item>4364312|Ocean City,MD|US</item>
         <item>4503351|Ocean City,NJ|US</item>
-        <item>711621|Borova,Kyivs'ka oblast|UA</item>
+        <item>711621|Borova,Kyivska oblast|UA</item>
         <item>711623|Borova,Kharkiv Oblast|UA</item>
         <item>3457817|Marau,RS|BR</item>
         <item>3457818|Marau,BA|BR</item>
