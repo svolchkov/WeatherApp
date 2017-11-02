@@ -1,0 +1,1895 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="world_cities_array">
+        <item>3164003|Vo,Veneto|IT</item>
+        <item>6534626|Vo,Veneto|IT</item>
+        <item>3621849|San Jose,San José|CR</item>
+        <item>3621841|San Jose,Provincia de Alajuela|CR</item>
+        <item>572090|Borovoy,Kareliya Republits|RU</item>
+        <item>1508894|Borovoy,Kemerovskaya oblast'|RU</item>
+        <item>673151|Mircea Voda,BR|RO</item>
+        <item>673154|Mircea Voda,CT|RO</item>
+        <item>3435734|Candelaria,Misiónes|AR</item>
+        <item>3862832|Candelaria,San Luis|AR</item>
+        <item>4898875|La Salle,IL|US</item>
+        <item>5578793|La Salle,CO|US</item>
+        <item>4181110|Barnesville,GA|US</item>
+        <item>4505786|Barnesville,OH|US</item>
+        <item>5017185|Barnesville,MN|US</item>
+        <item>4129397|Russellville,AR|US</item>
+        <item>4087313|Russellville,AL|US</item>
+        <item>4307025|Russellville,KY|US</item>
+        <item>5031678|Jackson,MN|US</item>
+        <item>4431410|Jackson,MS|US</item>
+        <item>4502434|Jackson,NJ|US</item>
+        <item>4632595|Jackson,TN|US</item>
+        <item>4997384|Jackson,MI|US</item>
+        <item>4069458|Jackson,AL|US</item>
+        <item>4202426|Jackson,GA|US</item>
+        <item>4296081|Jackson,KY|US</item>
+        <item>4296082|Jackson,KY|US</item>
+        <item>4328824|Jackson,LA|US</item>
+        <item>4392163|Jackson,MO|US</item>
+        <item>4515318|Jackson,OH|US</item>
+        <item>5257669|Jackson,WI|US</item>
+        <item>5360160|Jackson,CA|US</item>
+        <item>5828648|Jackson,WY|US</item>
+        <item>1270961|Gopalpur,OD|IN</item>
+        <item>1349263|Gopalpur,WB|IN</item>
+        <item>1270927|Gorakhpur,UP|IN</item>
+        <item>1270926|Gorakhpur,HR|IN</item>
+        <item>3979819|Zacualpan,Nay.|MX</item>
+        <item>3514138|Zacualpan,Méx.|MX</item>
+        <item>3979821|Zacualpan,Gro.|MX</item>
+        <item>4463523|Denver,NC|US</item>
+        <item>5419384|Denver,CO|US</item>
+        <item>5186794|Denver,PA|US</item>
+        <item>4289042|Crestwood,KY|US</item>
+        <item>4382833|Crestwood,MO|US</item>
+        <item>4889113|Crestwood,IL|US</item>
+        <item>4748125|Bluefield,VA|US</item>
+        <item>4799622|Bluefield,WV|US</item>
+        <item>4351977|College Park,MD|US</item>
+        <item>4188815|College Park,GA|US</item>
+        <item>4791160|Vienna,VA|US</item>
+        <item>4228440|Vienna,GA|US</item>
+        <item>4825976|Vienna,WV|US</item>
+        <item>2166335|Forest Hill,NSW|AU</item>
+        <item>7932633|Forest Hill,VIC|AU</item>
+        <item>4853423|Davenport,IA|US</item>
+        <item>4152805|Davenport,FL|US</item>
+        <item>3114957|Oria,PV|ES</item>
+        <item>2513079|Oria,AL|ES</item>
+        <item>512109|Pavlovka,Respublika Bashkortostan|RU</item>
+        <item>512133|Pavlovka,Ulyanovskaya oblast'|RU</item>
+        <item>512152|Pavlovka,Ulyanovskaya oblast'|RU</item>
+        <item>4835461|Groton,CT|US</item>
+        <item>5119513|Groton,NY|US</item>
+        <item>549610|Khomutovo,Orlovskaya oblast'|RU</item>
+        <item>2022342|Khomutovo,Irkutskaya oblast'|RU</item>
+        <item>700159|Mykolayivka,Odessa Oblast|UA</item>
+        <item>2176123|Bentleigh,VIC|AU</item>
+        <item>7932650|Bentleigh,VIC|AU</item>
+        <item>5319311|Vail,AZ|US</item>
+        <item>5442727|Vail,CO|US</item>
+        <item>1279134|Akbarpur,UP|IN</item>
+        <item>1279135|Akbarpur,UP|IN</item>
+        <item>4884192|Batavia,IL|US</item>
+        <item>5108093|Batavia,NY|US</item>
+        <item>4636442|Lewisburg,TN|US</item>
+        <item>4812015|Lewisburg,WV|US</item>
+        <item>5197842|Lewisburg,PA|US</item>
+        <item>5044315|Saint Augusta,MN|US</item>
+        <item>5048493|Saint Augusta,MN|US</item>
+        <item>5160041|Lagrange,OH|US</item>
+        <item>4922472|Lagrange,IN|US</item>
+        <item>4172086|Sanford,FL|US</item>
+        <item>4490329|Sanford,NC|US</item>
+        <item>4977762|Sanford,ME|US</item>
+        <item>4684218|Crockett,TX|US</item>
+        <item>5340758|Crockett,CA|US</item>
+        <item>1790923|Wuxi,Jiangsu Sheng|CN</item>
+        <item>1797417|Wuxi,Hunan Sheng|CN</item>
+        <item>5387494|Ridgecrest,CA|US</item>
+        <item>4170019|Ridgecrest,FL|US</item>
+        <item>2807846|Winsen,NDS|DE</item>
+        <item>2807845|Winsen,NDS|DE</item>
+        <item>4000490|La Reforma,Sin.|MX</item>
+        <item>3525067|La Reforma,N.L.|MX</item>
+        <item>666187|Stejaru,TL|RO</item>
+        <item>666193|Stejaru,TR|RO</item>
+        <item>4355274|Forestville,MD|US</item>
+        <item>4512083|Forestville,OH|US</item>
+        <item>5349984|Forestville,CA|US</item>
+        <item>3533269|Agua Dulce,Ver.|MX</item>
+        <item>3533268|Agua Dulce,Ver.|MX</item>
+        <item>500695|Rudnichnyy,Kirovskaya oblast'|RU</item>
+        <item>1493457|Rudnichnyy,Sverdlovskaya oblast'|RU</item>
+        <item>1493458|Rudnichnyy,Kemerovskaya oblast'|RU</item>
+        <item>509437|Pionerskiy,Kaliningradskaya oblast'|RU</item>
+        <item>1494949|Pionerskiy,ХМАО|RU</item>
+        <item>3006755|La Rochette,Île-de-France|FR</item>
+        <item>3006758|La Rochette,Auvergne-Rhône-Alpes|FR</item>
+        <item>1717051|Compostela,Central Visayas|PH</item>
+        <item>1717053|Compostela,Davao Region|PH</item>
+        <item>2815075|Waldenburg,BW|DE</item>
+        <item>2815074|Waldenburg,SN|DE</item>
+        <item>1498205|Muromtsevo,Omskaya oblast'|RU</item>
+        <item>6930055|Muromtsevo,Vladimirskaya oblast'|RU</item>
+        <item>1715206|Del Carmen,Central Luzon|PH</item>
+        <item>1715212|Del Carmen,Caraga|PH</item>
+        <item>526652|Mikhnevo,МО|RU</item>
+        <item>526651|Mikhnevo,МО|RU</item>
+        <item>5393015|Santa Clara,CA|US</item>
+        <item>5546441|Santa Clara,UT|US</item>
+        <item>2910685|Harburg,HH|DE</item>
+        <item>2910686|Harburg,BY|DE</item>
+        <item>3688656|Bolivar,Santander|CO</item>
+        <item>3688659|Bolivar,Valle del Cauca|CO</item>
+        <item>4840767|Plainville,CT|US</item>
+        <item>4277260|Plainville,KS|US</item>
+        <item>4947490|Plainville,MA|US</item>
+        <item>1723066|Bulacan,Central Luzon|PH</item>
+        <item>1723070|Bulacan,Davao Region|PH</item>
+        <item>545275|Konstantinovskaya,Krasnodarskiy kray|RU</item>
+        <item>545276|Konstantinovskaya,Stavropolskiy kray|RU</item>
+        <item>5552301|Avondale,AZ|US</item>
+        <item>4315225|Avondale,LA|US</item>
+        <item>4313572|Williamstown,KY|US</item>
+        <item>4504871|Williamstown,NJ|US</item>
+        <item>4827351|Williamstown,WV|US</item>
+        <item>4955786|Williamstown,MA|US</item>
+        <item>4845419|West Haven,CT|US</item>
+        <item>5759989|West Haven,OR|US</item>
+        <item>5784540|West Haven,UT|US</item>
+        <item>2175375|Blair Athol,NSW|AU</item>
+        <item>6943455|Blair Athol,SA|AU</item>
+        <item>1728236|Balete,Central Luzon|PH</item>
+        <item>1728240|Balete,Calabarzon|PH</item>
+        <item>1728248|Balete,Bicol|PH</item>
+        <item>4990797|Dexter,MI|US</item>
+        <item>4383857|Dexter,MO|US</item>
+        <item>4962502|Dexter,ME|US</item>
+        <item>2270385|Camacha,Madeira|PT</item>
+        <item>2270386|Camacha,Madeira|PT</item>
+        <item>4644312|Murfreesboro,TN|US</item>
+        <item>4481298|Murfreesboro,NC|US</item>
+        <item>3392740|Paulista,PE|BR</item>
+        <item>3392742|Paulista,PB|BR</item>
+        <item>739061|Taskopru,Kastamonu|TR</item>
+        <item>739067|Taskopru,Yalova|TR</item>
+        <item>5369367|Lynwood,CA|US</item>
+        <item>4900739|Lynwood,IL|US</item>
+        <item>4900740|Lynwood,IL|US</item>
+        <item>4353035|Delmar,MD|US</item>
+        <item>5114831|Delmar,NY|US</item>
+        <item>668186|Salcioara,DB|RO</item>
+        <item>668188|Salcioara,IL|RO</item>
+        <item>1707057|La Union,Caraga|PH</item>
+        <item>1707058|La Union,Davao Region|PH</item>
+        <item>680316|Crasna,SJ|RO</item>
+        <item>680319|Crasna,GJ|RO</item>
+        <item>4352681|Cumberland,MD|US</item>
+        <item>5221703|Cumberland,RI|US</item>
+        <item>4256384|Cumberland,IN|US</item>
+        <item>4289232|Cumberland,KY|US</item>
+        <item>5249896|Cumberland,WI|US</item>
+        <item>3594422|La Libertad,Petén|GT</item>
+        <item>3594423|La Libertad,Huehuetenango|GT</item>
+        <item>2026895|Belogorsk,Amurskaya oblast'|RU</item>
+        <item>1510514|Belogorsk,Kemerovskaya oblast'|RU</item>
+        <item>2661349|Buchs,SG|CH</item>
+        <item>2661348|Buchs,AG|CH</item>
+        <item>496564|Sernovodsk,Chechenskaya Republits|RU</item>
+        <item>496568|Sernovodsk,Samarskaya oblast'|RU</item>
+        <item>4274828|Louisburg,KS|US</item>
+        <item>4477296|Louisburg,NC|US</item>
+        <item>5819881|Buffalo,WY|US</item>
+        <item>5019588|Buffalo,MN|US</item>
+        <item>5110629|Buffalo,NY|US</item>
+        <item>4379025|Buffalo,MO|US</item>
+        <item>4679944|Celina,TX|US</item>
+        <item>5149493|Celina,OH|US</item>
+        <item>4782167|Roanoke,VA|US</item>
+        <item>4086285|Roanoke,AL|US</item>
+        <item>4723024|Roanoke,TX|US</item>
+        <item>4907773|Roanoke,IL|US</item>
+        <item>1709036|Kauswagan,Northern Mindanao|PH</item>
+        <item>1709037|Kauswagan,Caraga|PH</item>
+        <item>1709039|Kauswagan,Northern Mindanao|PH</item>
+        <item>1266512|Kiranur,TN|IN</item>
+        <item>1266513|Kiranur,TN|IN</item>
+        <item>684677|Bistra,MM|RO</item>
+        <item>684680|Bistra,AB|RO</item>
+        <item>5528450|Plainview,TX|US</item>
+        <item>5131638|Plainview,NY|US</item>
+        <item>4649905|Plainview,TN|US</item>
+        <item>5041791|Plainview,MN|US</item>
+        <item>5006166|Pontiac,MI|US</item>
+        <item>4906438|Pontiac,IL|US</item>
+        <item>4517698|Mason,OH|US</item>
+        <item>4709501|Mason,TX|US</item>
+        <item>5001093|Mason,MI|US</item>
+        <item>1689129|San Luis,Central Luzon|PH</item>
+        <item>1689123|San Luis,Cagayan Valley|PH</item>
+        <item>1689144|San Luis,Caraga|PH</item>
+        <item>1689145|San Luis,Northern Mindanao|PH</item>
+        <item>1689146|San Luis,Rehiyon ng Davao|PH</item>
+        <item>545747|Komsomolets,Tambovskaya oblast'|RU</item>
+        <item>545752|Komsomolets,Stavropolskiy kray|RU</item>
+        <item>5088262|Keene,NH|US</item>
+        <item>4702785|Keene,TX|US</item>
+        <item>5235024|Colchester,VT|US</item>
+        <item>5284283|Colchester,CT|US</item>
+        <item>5731371|Hillsboro,OR|US</item>
+        <item>4240782|Hillsboro,IL|US</item>
+        <item>4273003|Hillsboro,KS|US</item>
+        <item>4390705|Hillsboro,MO|US</item>
+        <item>4514282|Hillsboro,OH|US</item>
+        <item>4697867|Hillsboro,TX|US</item>
+        <item>4115412|Hot Springs,AR|US</item>
+        <item>5765751|Hot Springs,SD|US</item>
+        <item>4528291|Whitehall,OH|US</item>
+        <item>5014913|Whitehall,MI|US</item>
+        <item>5144375|Whitehall,NY|US</item>
+        <item>5219271|Whitehall,PA|US</item>
+        <item>4498003|Welcome,NC|US</item>
+        <item>4600413|Welcome,SC|US</item>
+        <item>1798422|Puyang,Henan Sheng|CN</item>
+        <item>1798425|Puyang,Zhejiang Sheng|CN</item>
+        <item>5145476|Akron,OH|US</item>
+        <item>5106825|Akron,NY|US</item>
+        <item>5177922|Akron,PA|US</item>
+        <item>4346466|Winnsboro,LA|US</item>
+        <item>4601335|Winnsboro,SC|US</item>
+        <item>4742620|Winnsboro,TX|US</item>
+        <item>297027|Yenikoy,Batman|TR</item>
+        <item>737660|Yenikoy,Bursa|TR</item>
+        <item>4168782|Plantation,FL|US</item>
+        <item>4168784|Plantation,FL|US</item>
+        <item>1540356|Raduzhnyy,ХМАО|RU</item>
+        <item>7117885|Raduzhnyy,Vladimirskaya oblast'|RU</item>
+        <item>866054|Raduzhnyy,Komi Republits|RU</item>
+        <item>5739936|McMinnville,OR|US</item>
+        <item>4640882|McMinnville,TN|US</item>
+        <item>4250862|Sullivan,IL|US</item>
+        <item>4265507|Sullivan,IN|US</item>
+        <item>4410669|Sullivan,MO|US</item>
+        <item>4361725|Marlton,MD|US</item>
+        <item>4502911|Marlton,NJ|US</item>
+        <item>1683430|Tampakan,SOCCSKSARGEN|PH</item>
+        <item>4886038|Burnham,IL|US</item>
+        <item>5182434|Burnham,PA|US</item>
+        <item>1506260|Gornyak,Altayskiy kray|RU</item>
+        <item>1506258|Gornyak,Chelyabinskaya oblast'|RU</item>
+        <item>750392|Bozkurt,Kastamonu|TR</item>
+        <item>320606|Bozkurt,Denizli|TR</item>
+        <item>676830|Gradinari,CS|RO</item>
+        <item>676831|Gradinari,OT|RO</item>
+        <item>678432|Gradinari,GR|RO</item>
+        <item>3994604|Nuevo Mexico,Jal.|MX</item>
+        <item>4024597|Nuevo Mexico,Gto.|MX</item>
+        <item>2037620|Dongling,Liaoning Sheng|CN</item>
+        <item>1812395|Dongling,Fujian Sheng|CN</item>
+        <item>1700352|Mat-i,Caraga|PH</item>
+        <item>1700356|Mat-i,Northern Mindanao|PH</item>
+        <item>685076|Berceni,PH|RO</item>
+        <item>685078|Berceni,IF|RO</item>
+        <item>4951257|Somerville,MA|US</item>
+        <item>4658802|Somerville,TN|US</item>
+        <item>5104774|Somerville,NJ|US</item>
+        <item>3689560|Armenia,Quindío|CO</item>
+        <item>3689559|Armenia,Antioquia|CO</item>
+        <item>5170691|Sandusky,OH|US</item>
+        <item>5008920|Sandusky,MI|US</item>
+        <item>5858289|Butte,AK|US</item>
+        <item>5642934|Butte,MT|US</item>
+        <item>1707523|Langtad,Central Visayas|PH</item>
+        <item>1707524|Langtad,Central Visayas|PH</item>
+        <item>1789176|Feicheng,Shandong Sheng|CN</item>
+        <item>1811440|Feicheng,Shandong Sheng|CN</item>
+        <item>1715169|Del Pilar,Central Luzon|PH</item>
+        <item>1715181|Del Pilar,Caraga|PH</item>
+        <item>1958738|Del Pilar,Davao Region|PH</item>
+        <item>1965740|Del Pilar,Central Luzon|PH</item>
+        <item>5475667|Lee Acres,NM|US</item>
+        <item>5475668|Lee Acres,NM|US</item>
+        <item>4905367|Park Ridge,IL|US</item>
+        <item>5102400|Park Ridge,NJ|US</item>
+        <item>1697622|Niugan,Central Luzon|PH</item>
+        <item>1697624|Niugan,NCR|PH</item>
+        <item>4061586|Fayette,AL|US</item>
+        <item>4386332|Fayette,MO|US</item>
+        <item>2872582|Meckenheim,NRW|DE</item>
+        <item>2872583|Meckenheim,RP|DE</item>
+        <item>4395052|Liberty,MO|US</item>
+        <item>4260329|Liberty,IN|US</item>
+        <item>4298003|Liberty,KY|US</item>
+        <item>4475785|Liberty,NC|US</item>
+        <item>4585025|Liberty,SC|US</item>
+        <item>4706088|Liberty,TX|US</item>
+        <item>5124323|Liberty,NY|US</item>
+        <item>5197865|Liberty,PA|US</item>
+        <item>2038569|Baicheng,Jilin Sheng|CN</item>
+        <item>1816269|Baicheng,Guangxi Zhuangzuzizhiqu|CN</item>
+        <item>5112703|Churchville,NY|US</item>
+        <item>5184359|Churchville,PA|US</item>
+        <item>4703384|Kingsville,TX|US</item>
+        <item>4359984|Kingsville,MD|US</item>
+        <item>3521074|Pueblo Nuevo,Méx.|MX</item>
+        <item>3991567|Pueblo Nuevo,Gto.|MX</item>
+        <item>4175993|Twin Lakes,FL|US</item>
+        <item>5276542|Twin Lakes,WI|US</item>
+        <item>5404274|Twin Lakes,CA|US</item>
+        <item>5442271|Twin Lakes,CO|US</item>
+        <item>4153884|Eagle Lake,FL|US</item>
+        <item>4687579|Eagle Lake,TX|US</item>
+        <item>5024846|Eagle Lake,MN|US</item>
+        <item>1266960|Kharar,PB|IN</item>
+        <item>1266962|Kharar,WB|IN</item>
+        <item>1707665|Lanas,MIMAROPA|PH</item>
+        <item>1707666|Lanas,Central Visayas|PH</item>
+        <item>763166|Olsztyn,warmińsko-mazurskie|PL</item>
+        <item>3090104|Olsztyn,śląskie|PL</item>
+        <item>302667|Pinarbasi,Kayseri|TR</item>
+        <item>740581|Pinarbasi,Kastamonu|TR</item>
+        <item>1283599|Bhojpur,Mid-Western Development Region|NP</item>
+        <item>1283600|Bhojpur,Eastern Region|NP</item>
+        <item>3606159|La Union,Departamento de Atlántida|HN</item>
+        <item>3606171|La Union,Departamento de Lempira|HN</item>
+        <item>3998291|Loreto,Zac.|MX</item>
+        <item>3998287|Loreto,B.C.S.|MX</item>
+        <item>5323499|Alta Sierra,CA|US</item>
+        <item>5323500|Alta Sierra,CA|US</item>
+        <item>5296962|Guadalupe,AZ|US</item>
+        <item>5354591|Guadalupe,CA|US</item>
+        <item>3514675|Villa Guerrero,Méx.|MX</item>
+        <item>3980172|Villa Guerrero,Jal.|MX</item>
+        <item>684732|Barza,MS|RO</item>
+        <item>685318|Barza,OT|RO</item>
+        <item>4373349|Wheaton,MD|US</item>
+        <item>4916288|Wheaton,IL|US</item>
+        <item>4307238|Saint Matthews,KY|US</item>
+        <item>4594258|Saint Matthews,SC|US</item>
+        <item>1702056|Manat,Davao Region|PH</item>
+        <item>1702057|Manat,Davao Region|PH</item>
+        <item>5779206|Ogden,UT|US</item>
+        <item>4276588|Ogden,KS|US</item>
+        <item>4483174|Ogden,NC|US</item>
+        <item>4869780|Ogden,IA|US</item>
+        <item>499535|Sadovoye,Respublika Kalmykiya|RU</item>
+        <item>499528|Sadovoye,Voronezhskaya oblast'|RU</item>
+        <item>526354|Mirnyy,Ulyanovskaya oblast'|RU</item>
+        <item>2019951|Mirnyy,Sakha (Yakutiya) Republits|RU</item>
+        <item>526357|Mirnyy,Samarskaya oblast'|RU</item>
+        <item>831129|Mirnyy,Arkhangelskaya oblast'|RU</item>
+        <item>526346|Mirnyy,Arkhangelskaya oblast'|RU</item>
+        <item>526347|Mirnyy,Kirovskaya oblast'|RU</item>
+        <item>4499294|Williamston,NC|US</item>
+        <item>4601167|Williamston,SC|US</item>
+        <item>5015133|Williamston,MI|US</item>
+        <item>3688396|Buenavista,Magdalena|CO</item>
+        <item>3688397|Buenavista,Córdoba|CO</item>
+        <item>3688433|Buenavista,Quindío|CO</item>
+        <item>1718412|Caridad,Eastern Visayas|PH</item>
+        <item>1718415|Caridad,Western Visayas|PH</item>
+        <item>4766586|Jefferson,VA|US</item>
+        <item>4202672|Jefferson,GA|US</item>
+        <item>4202673|Jefferson,GA|US</item>
+        <item>4328973|Jefferson,LA|US</item>
+        <item>4359377|Jefferson,MD|US</item>
+        <item>4700817|Jefferson,TX|US</item>
+        <item>4862482|Jefferson,IA|US</item>
+        <item>4968246|Jefferson,ME|US</item>
+        <item>5159071|Jefferson,OH|US</item>
+        <item>5257784|Jefferson,WI|US</item>
+        <item>5733532|Jefferson,OR|US</item>
+        <item>5296802|Green Valley,AZ|US</item>
+        <item>4356836|Green Valley,MD|US</item>
+        <item>5122432|Ithaca,NY|US</item>
+        <item>4997346|Ithaca,MI|US</item>
+        <item>4465463|Erwin,NC|US</item>
+        <item>4621130|Erwin,TN|US</item>
+        <item>1258911|Rajapur,UP|IN</item>
+        <item>1258914|Rajapur,MH|IN</item>
+        <item>5099967|Kearny,NJ|US</item>
+        <item>5300854|Kearny,AZ|US</item>
+        <item>4116834|Jonesboro,AR|US</item>
+        <item>4203316|Jonesboro,GA|US</item>
+        <item>4329308|Jonesboro,LA|US</item>
+        <item>4235668|Charleston,IL|US</item>
+        <item>4574324|Charleston,SC|US</item>
+        <item>4801859|Charleston,WV|US</item>
+        <item>4105377|Charleston,AR|US</item>
+        <item>4380997|Charleston,MO|US</item>
+        <item>4421338|Charleston,MS|US</item>
+        <item>4632591|Jacksboro,TN|US</item>
+        <item>4700455|Jacksboro,TX|US</item>
+        <item>4916311|Wheeling,IL|US</item>
+        <item>5280854|Wheeling,WV|US</item>
+        <item>5017416|Bayport,MN|US</item>
+        <item>5108191|Bayport,NY|US</item>
+        <item>5038108|Moorhead,MN|US</item>
+        <item>4436546|Moorhead,MS|US</item>
+        <item>2339786|Gwaram,JG|NG</item>
+        <item>2339789|Gwaram,BA|NG</item>
+        <item>4101241|Benton,AR|US</item>
+        <item>4233586|Benton,IL|US</item>
+        <item>4283953|Benton,KY|US</item>
+        <item>4316471|Benton,LA|US</item>
+        <item>4958037|Benton,ME|US</item>
+        <item>4464873|Eden,NC|US</item>
+        <item>4688222|Eden,TX|US</item>
+        <item>5116215|Eden,NY|US</item>
+        <item>5116216|Eden,NY|US</item>
+        <item>3929607|San Jeronimo,Apurímac|PE</item>
+        <item>3929611|San Jeronimo,Junín|PE</item>
+        <item>5000500|Madison Heights,MI|US</item>
+        <item>4771247|Madison Heights,VA|US</item>
+        <item>4739157|Victoria,TX|US</item>
+        <item>5051387|Victoria,MN|US</item>
+        <item>2656985|Ash,England|GB</item>
+        <item>6695249|Ash,England|GB</item>
+        <item>1707445|Lantangan,Bicol|PH</item>
+        <item>1707446|Lantangan,Western Visayas|PH</item>
+        <item>1707448|Lantangan,Western Visayas|PH</item>
+        <item>4877184|Spirit Lake,IA|US</item>
+        <item>5608388|Spirit Lake,ID|US</item>
+        <item>4192289|Duluth,GA|US</item>
+        <item>5024719|Duluth,MN|US</item>
+        <item>4975451|Pittston,ME|US</item>
+        <item>5206397|Pittston,PA|US</item>
+        <item>1690570|Sampaloc,Calabarzon|PH</item>
+        <item>1690578|Sampaloc,Central Luzon|PH</item>
+        <item>1690582|Sampaloc,Calabarzon|PH</item>
+        <item>1690583|Sampaloc,Calabarzon|PH</item>
+        <item>4911418|Shorewood,IL|US</item>
+        <item>5047236|Shorewood,MN|US</item>
+        <item>5273084|Shorewood,WI|US</item>
+        <item>2845747|Rohr,BY|DE</item>
+        <item>2845750|Rohr,BY|DE</item>
+        <item>3983805|Santa Rosalia,B.C.S.|MX</item>
+        <item>3517029|Santa Rosalia,Tab.|MX</item>
+        <item>1255635|Srinagar,UK|IN</item>
+        <item>4759735|Fort Lee,VA|US</item>
+        <item>5098135|Fort Lee,NJ|US</item>
+        <item>7257908|Fort Lee,VA|US</item>
+        <item>1724278|Bolo,Ilocos Region|PH</item>
+        <item>1724280|Bolo,Southern Tagalog (CALABARZON)|PH</item>
+        <item>1724281|Bolo,Bicol|PH</item>
+        <item>1724291|Bolo,Western Visayas|PH</item>
+        <item>3074893|Hranice,Olomoucký kraj|CZ</item>
+        <item>3074889|Hranice,Karlovarský kraj|CZ</item>
+        <item>4235193|Carbondale,IL|US</item>
+        <item>5183204|Carbondale,PA|US</item>
+        <item>5416113|Carbondale,CO|US</item>
+        <item>4367417|Rossmoor,MD|US</item>
+        <item>5103523|Rossmoor,NJ|US</item>
+        <item>5388953|Rossmoor,CA|US</item>
+        <item>1266486|Kishangarh,RJ|IN</item>
+        <item>1266484|Kishangarh,RJ|IN</item>
+        <item>4974306|Orland,ME|US</item>
+        <item>5379698|Orland,CA|US</item>
+        <item>4706057|Lewisville,TX|US</item>
+        <item>4475767|Lewisville,NC|US</item>
+        <item>4098161|Winfield,AL|US</item>
+        <item>4281897|Winfield,KS|US</item>
+        <item>4827506|Winfield,WV|US</item>
+        <item>4916826|Winfield,IL|US</item>
+        <item>4928354|Winfield,IN|US</item>
+        <item>4920869|Granger,IN|US</item>
+        <item>5795972|Granger,WA|US</item>
+        <item>2523866|Paterno,Sicilia|IT</item>
+        <item>3171392|Paterno,Basilicata|IT</item>
+        <item>4413977|Wellston,MO|US</item>
+        <item>4527879|Wellston,OH|US</item>
+        <item>4156404|Gainesville,FL|US</item>
+        <item>4196586|Gainesville,GA|US</item>
+        <item>4692746|Gainesville,TX|US</item>
+        <item>4760363|Gainesville,VA|US</item>
+        <item>3601903|San Marcos,Departamento de Ocotepeque|HN</item>
+        <item>3601899|San Marcos,Departamento de Santa Bárbara|HN</item>
+        <item>664796|Tomsani,VL|RO</item>
+        <item>664797|Tomsani,PH|RO</item>
+        <item>4178414|Williston,FL|US</item>
+        <item>4601196|Williston,SC|US</item>
+        <item>5243008|Williston,VT|US</item>
+        <item>5692947|Williston,ND|US</item>
+        <item>2906088|Heringen,HE|DE</item>
+        <item>2906087|Heringen,Thüringen|DE</item>
+        <item>662620|Vladesti,GL|RO</item>
+        <item>662622|Vladesti,VL|RO</item>
+        <item>1278805|Amethi,UP|IN</item>
+        <item>1278806|Amethi,UP|IN</item>
+        <item>1723085|Bula,Bicol|PH</item>
+        <item>1723086|Bula,Western Visayas|PH</item>
+        <item>3670107|San Antonio,Magdalena|CO</item>
+        <item>3670162|San Antonio,Tolima|CO</item>
+        <item>683278|Bunesti,VS|RO</item>
+        <item>683279|Bunesti,BV|RO</item>
+        <item>683282|Bunesti,VL|RO</item>
+        <item>548408|Kirov,Kirovskaya oblast'|RU</item>
+        <item>548410|Kirov,Kaluzhskaya oblast'|RU</item>
+        <item>1705503|Lourdes,Central Luzon|PH</item>
+        <item>1705505|Lourdes,Central Luzon|PH</item>
+        <item>1705509|Lourdes,Bicol|PH</item>
+        <item>1705516|Lourdes,Northern Mindanao|PH</item>
+        <item>4391808|Imperial,MO|US</item>
+        <item>5194741|Imperial,PA|US</item>
+        <item>5359052|Imperial,CA|US</item>
+        <item>5696354|Imperial,NE|US</item>
+        <item>3981391|Tomatlan,Jal.|MX</item>
+        <item>3515290|Tomatlan,Ver.|MX</item>
+        <item>510171|Petropavlovskaya,Krasnodarskiy kray|RU</item>
+        <item>510172|Petropavlovskaya,Chechenskaya Republits|RU</item>
+        <item>4152003|Cortez,FL|US</item>
+        <item>5418104|Cortez,CO|US</item>
+        <item>667757|Saveni,BT|RO</item>
+        <item>667759|Saveni,IL|RO</item>
+        <item>2978017|Saint-Michel,Hauts-de-France|FR</item>
+        <item>2978023|Saint-Michel,Nouvelle-Aquitaine|FR</item>
+        <item>680054|Cuca,GL|RO</item>
+        <item>680055|Cuca,AG|RO</item>
+        <item>4519761|Newtown,OH|US</item>
+        <item>5203354|Newtown,PA|US</item>
+        <item>5280935|Newtown,CT|US</item>
+        <item>4600541|West Columbia,SC|US</item>
+        <item>4740759|West Columbia,TX|US</item>
+        <item>1704544|Mabini,Cagayan Valley|PH</item>
+        <item>1704545|Mabini,Ilocos Region|PH</item>
+        <item>1704552|Mabini,Central Luzon|PH</item>
+        <item>1704560|Mabini,Calabarzon|PH</item>
+        <item>1704575|Mabini,Eastern Visayas|PH</item>
+        <item>1704579|Mabini,Western Visayas|PH</item>
+        <item>1704591|Mabini,Central Visayas|PH</item>
+        <item>1704598|Mabini,SOCCSKSARGEN|PH</item>
+        <item>5751600|Sheridan,OR|US</item>
+        <item>5838198|Sheridan,WY|US</item>
+        <item>4130821|Sheridan,AR|US</item>
+        <item>4911289|Sheridan,IL|US</item>
+        <item>4926367|Sheridan,IN|US</item>
+        <item>5438542|Sheridan,CO|US</item>
+        <item>1832384|Eisen,Gyeongsangbuk-do|KR</item>
+        <item>1832617|Eisen,Gyeongsangbuk-do|KR</item>
+        <item>4889668|Deerfield,IL|US</item>
+        <item>5085369|Deerfield,NH|US</item>
+        <item>5250368|Deerfield,WI|US</item>
+        <item>5347287|Fair Oaks,CA|US</item>
+        <item>4194111|Fair Oaks,GA|US</item>
+        <item>4991364|Durand,MI|US</item>
+        <item>5251056|Durand,WI|US</item>
+        <item>4557137|Chester,PA|US</item>
+        <item>4752229|Chester,VA|US</item>
+        <item>4235724|Chester,IL|US</item>
+        <item>4351248|Chester,MD|US</item>
+        <item>4574565|Chester,SC|US</item>
+        <item>5084518|Chester,NH|US</item>
+        <item>5112470|Chester,NY|US</item>
+        <item>5234827|Chester,VT|US</item>
+        <item>5280161|Chester,WV|US</item>
+        <item>5561279|Chester,CA|US</item>
+        <item>4067927|Homewood,AL|US</item>
+        <item>4896353|Homewood,IL|US</item>
+        <item>4406951|Saint Johns,MO|US</item>
+        <item>5008278|Saint Johns,MI|US</item>
+        <item>5312595|Saint Johns,AZ|US</item>
+        <item>2847689|Rhede,NRW|DE</item>
+        <item>2847688|Rhede,NDS|DE</item>
+        <item>5132029|Port Washington,NY|US</item>
+        <item>5267776|Port Washington,WI|US</item>
+        <item>1271675|Gangapur,RJ|IN</item>
+        <item>1271676|Gangapur,RJ|IN</item>
+        <item>1271680|Gangapur,MH|IN</item>
+        <item>1723130|Bukal,Calabarzon|PH</item>
+        <item>1723132|Bukal,Calabarzon|PH</item>
+        <item>5747882|Redmond,OR|US</item>
+        <item>5808079|Redmond,WA|US</item>
+        <item>155322|Magomeni,Tanga Region|TZ</item>
+        <item>669043|Recea,MM|RO</item>
+        <item>669051|Recea,BV|RO</item>
+        <item>669054|Recea,AG|RO</item>
+        <item>695594|Rivne,Rivnens'ka oblast|UA</item>
+        <item>695365|Rivne,Kirovohrads'ka oblast|UA</item>
+        <item>4891051|Elmwood Park,IL|US</item>
+        <item>5097627|Elmwood Park,NJ|US</item>
+        <item>5316201|Sun City,AZ|US</item>
+        <item>5399901|Sun City,CA|US</item>
+        <item>4504811|Westville,NJ|US</item>
+        <item>4916252|Westville,IL|US</item>
+        <item>4928145|Westville,IN|US</item>
+        <item>5106350|Westville,NJ|US</item>
+        <item>3405339|Bom Jardim,PE|BR</item>
+        <item>3405341|Bom Jardim,MA|BR</item>
+        <item>5044290|Saint Anthony,MN|US</item>
+        <item>5606187|Saint Anthony,ID|US</item>
+        <item>5172078|Sidney,OH|US</item>
+        <item>4978585|Sidney,ME|US</item>
+        <item>5138113|Sidney,NY|US</item>
+        <item>5677735|Sidney,MT|US</item>
+        <item>5699552|Sidney,NE|US</item>
+        <item>4828890|Chillicothe,OH|US</item>
+        <item>4381104|Chillicothe,MO|US</item>
+        <item>4887574|Chillicothe,IL|US</item>
+        <item>5129603|Oceanside,NY|US</item>
+        <item>5378771|Oceanside,CA|US</item>
+        <item>1510370|Belyy Yar,Tomskaya oblast'|RU</item>
+        <item>1510377|Belyy Yar,Khakasiya Republits|RU</item>
+        <item>1724519|Bobon,Central Luzon|PH</item>
+        <item>1724535|Bobon,Eastern Visayas|PH</item>
+        <item>1724544|Bobon,Davao Region|PH</item>
+        <item>2941497|Burg,SH|DE</item>
+        <item>2941502|Burg,BB|DE</item>
+        <item>1853483|Oyama,Tochigi-ken|JP</item>
+        <item>1853486|Oyama,Shizuoka-ken|JP</item>
+        <item>5742974|North Bend,OR|US</item>
+        <item>5804915|North Bend,WA|US</item>
+        <item>5152278|Doylestown,OH|US</item>
+        <item>5187247|Doylestown,PA|US</item>
+        <item>5187248|Doylestown,PA|US</item>
+        <item>677628|Ganeasa,IF|RO</item>
+        <item>677629|Ganeasa,OT|RO</item>
+        <item>5854171|Waialua,HI|US</item>
+        <item>5854173|Waialua,HI|US</item>
+        <item>5025627|Ely,MN|US</item>
+        <item>5503694|Ely,NV|US</item>
+        <item>4756955|East Hampton,VA|US</item>
+        <item>4833387|East Hampton,CT|US</item>
+        <item>5506956|Las Vegas,NV|US</item>
+        <item>5475433|Las Vegas,NM|US</item>
+        <item>2866512|Nentershausen,RP|DE</item>
+        <item>2866511|Nentershausen,HE|DE</item>
+        <item>507421|Pokrovskoye,Orlovskaya oblast'|RU</item>
+        <item>507427|Pokrovskoye,Rostovskaya oblast'|RU</item>
+        <item>507464|Pokrovskoye,Dagestan Republits|RU</item>
+        <item>1494603|Pokrovskoye,Sverdlovskaya oblast'|RU</item>
+        <item>1498920|Mezhdurechensk,Кемеровская|RU</item>
+        <item>527300|Mezhdurechensk,Samarskaya oblast'|RU</item>
+        <item>667691|Schela,GL|RO</item>
+        <item>667692|Schela,GJ|RO</item>
+        <item>4893070|Franklin Park,IL|US</item>
+        <item>5190360|Franklin Park,PA|US</item>
+        <item>2907887|Heidenau,SN|DE</item>
+        <item>2907886|Heidenau,NDS|DE</item>
+        <item>2075806|Bridgewater,SA|AU</item>
+        <item>2174079|Bridgewater,TAS|AU</item>
+        <item>5394136|Seaside,CA|US</item>
+        <item>4172366|Seaside,FL|US</item>
+        <item>5750984|Seaside,OR|US</item>
+        <item>662837|Vanatori,IS|RO</item>
+        <item>662840|Vanatori,MS|RO</item>
+        <item>662841|Vanatori,VN|RO</item>
+        <item>662842|Vanatori,GL|RO</item>
+        <item>662844|Vanatori,MH|RO</item>
+        <item>5134323|Roosevelt,NY|US</item>
+        <item>5780699|Roosevelt,UT|US</item>
+        <item>4673353|Bellaire,TX|US</item>
+        <item>4268079|Bellaire,KS|US</item>
+        <item>5146946|Bellaire,OH|US</item>
+        <item>678752|Dumbrava,TM|RO</item>
+        <item>678755|Dumbrava,PH|RO</item>
+        <item>1489246|Troitsk,Chelyabinskaya oblast'|RU</item>
+        <item>481608|Troitsk,МО|RU</item>
+        <item>1489202|Troitsk,Omskaya oblast'|RU</item>
+        <item>572500|Borisovka,Belgorodskaya oblast'|RU</item>
+        <item>805775|Borisovka,Belgorodskaya oblast'|RU</item>
+        <item>487246|Strelka,Krasnodarskiy kray|RU</item>
+        <item>1490805|Strelka,Krasnoyarskiy kray|RU</item>
+        <item>2929804|Erbach,BW|DE</item>
+        <item>2929802|Erbach,HE|DE</item>
+        <item>1705096|Luna,Cagayan Valley|PH</item>
+        <item>1705105|Luna,Western Visayas|PH</item>
+        <item>1705109|Luna,Caraga|PH</item>
+        <item>1705111|Luna,Davao Region|PH</item>
+        <item>1730479|Luna,Bicol|PH</item>
+        <item>4839292|New Britain,CT|US</item>
+        <item>5203118|New Britain,PA|US</item>
+        <item>3442057|Las Piedras,Departamento de Canelones|UY</item>
+        <item>3442058|Las Piedras,Artigas|UY</item>
+        <item>4843811|Stratford,CT|US</item>
+        <item>4504336|Stratford,NJ|US</item>
+        <item>5531815|Stratford,TX|US</item>
+        <item>4170000|Richmond Heights,FL|US</item>
+        <item>4405589|Richmond Heights,MO|US</item>
+        <item>5168063|Richmond Heights,OH|US</item>
+        <item>1694556|Pasil,CAR|PH</item>
+        <item>1694559|Pasil,Western Visayas|PH</item>
+        <item>1861393|Ishikawa,Okinawa-ken|JP</item>
+        <item>2112583|Ishikawa,Fukushima-ken|JP</item>
+        <item>2852841|Polling,BY|DE</item>
+        <item>2852840|Polling,BY|DE</item>
+        <item>4670074|Alamo,TX|US</item>
+        <item>4179313|Alamo,GA|US</item>
+        <item>4602167|Alamo,TN|US</item>
+        <item>5322794|Alamo,CA|US</item>
+        <item>5163076|Millersburg,OH|US</item>
+        <item>5201405|Millersburg,PA|US</item>
+        <item>5530932|Socorro,TX|US</item>
+        <item>5491999|Socorro,NM|US</item>
+        <item>1720052|Calumpang,NCR|PH</item>
+        <item>1720050|Calumpang,Central Luzon|PH</item>
+        <item>1720055|Calumpang,Calabarzon|PH</item>
+        <item>1720056|Calumpang,Calabarzon|PH</item>
+        <item>1720057|Calumpang,Calabarzon|PH</item>
+        <item>712423|Berehove,Zakarpats'ka oblast|UA</item>
+        <item>4123037|Mountain Home,AR|US</item>
+        <item>4481046|Mountain Home,NC|US</item>
+        <item>5601615|Mountain Home,ID|US</item>
+        <item>2928011|Falkenberg,BB|DE</item>
+        <item>2928006|Falkenberg,BB|DE</item>
+        <item>2928017|Falkenberg,BY|DE</item>
+        <item>5338122|Clovis,CA|US</item>
+        <item>5462393|Clovis,NM|US</item>
+        <item>664858|Todiresti,SV|RO</item>
+        <item>664859|Todiresti,IS|RO</item>
+        <item>664860|Todiresti,VS|RO</item>
+        <item>4844084|Terryville,CT|US</item>
+        <item>5140694|Terryville,NY|US</item>
+        <item>4358671|Hughesville,MD|US</item>
+        <item>5194481|Hughesville,PA|US</item>
+        <item>4511086|Enon,OH|US</item>
+        <item>4757734|Enon,VA|US</item>
+        <item>4943926|Middleton,MA|US</item>
+        <item>5262838|Middleton,WI|US</item>
+        <item>5600890|Middleton,ID|US</item>
+        <item>3446038|Trindade,GO|BR</item>
+        <item>3386042|Trindade,PE|BR</item>
+        <item>7874479|Trindade,SC|BR</item>
+        <item>3669128|San Pedro,Sucre|CO</item>
+        <item>3669138|San Pedro,Antioquia|CO</item>
+        <item>3669156|San Pedro,Valle del Cauca|CO</item>
+        <item>4820938|Saint Albans,WV|US</item>
+        <item>4977288|Saint Albans,ME|US</item>
+        <item>5240569|Saint Albans,VT|US</item>
+        <item>4180439|Atlanta,GA|US</item>
+        <item>4671576|Atlanta,TX|US</item>
+        <item>677890|Frumoasa,HR|RO</item>
+        <item>677891|Frumoasa,TR|RO</item>
+        <item>1862599|Hino,Tōkyō-to|JP</item>
+        <item>1862601|Hino,Shiga-ken|JP</item>
+        <item>1258599|Rampur,UP|IN</item>
+        <item>1258598|Rampur,UP|IN</item>
+        <item>1258596|Rampur,HP|IN</item>
+        <item>4569298|Anderson,SC|US</item>
+        <item>4917592|Anderson,IN|US</item>
+        <item>4374798|Anderson,MO|US</item>
+        <item>5558857|Anderson,CA|US</item>
+        <item>4576653|Dillon,SC|US</item>
+        <item>5648657|Dillon,MT|US</item>
+        <item>315498|Eregli,Konya|TR</item>
+        <item>747471|Eregli,Zonguldak|TR</item>
+        <item>2828907|Steinach,Thüringen|DE</item>
+        <item>2828911|Steinach,BY|DE</item>
+        <item>2828913|Steinach,BW|DE</item>
+        <item>4904381|Oak Park,IL|US</item>
+        <item>5004188|Oak Park,MI|US</item>
+        <item>4262406|Oak Park,IN|US</item>
+        <item>5378408|Oak Park,CA|US</item>
+        <item>1688643|San Rafael,Central Luzon|PH</item>
+        <item>1688653|San Rafael,Calabarzon|PH</item>
+        <item>1688665|San Rafael,Bicol|PH</item>
+        <item>1688666|San Rafael,Bicol|PH</item>
+        <item>1688670|San Rafael,Bicol|PH</item>
+        <item>1688674|San Rafael,Western Visayas|PH</item>
+        <item>1688682|San Rafael,Davao Region|PH</item>
+        <item>4245152|Mount Vernon,IL|US</item>
+        <item>5127835|Mount Vernon,NY|US</item>
+        <item>5163799|Mount Vernon,OH|US</item>
+        <item>5804127|Mount Vernon,WA|US</item>
+        <item>4211083|Mount Vernon,GA|US</item>
+        <item>4261837|Mount Vernon,IN|US</item>
+        <item>4301702|Mount Vernon,KY|US</item>
+        <item>4301703|Mount Vernon,KY|US</item>
+        <item>4399605|Mount Vernon,MO|US</item>
+        <item>4713032|Mount Vernon,TX|US</item>
+        <item>4868251|Mount Vernon,IA|US</item>
+        <item>4923914|Mount Vernon,IN|US</item>
+        <item>7258318|Mount Vernon,VA|US</item>
+        <item>685706|Balan,SJ|RO</item>
+        <item>685707|Balan,HR|RO</item>
+        <item>2075795|Brighton,SA|AU</item>
+        <item>2174040|Brighton,QLD|AU</item>
+        <item>5928065|Cornwall,ON|CA</item>
+        <item>5928063|Cornwall,PE|CA</item>
+        <item>4258285|Greenfield,IN|US</item>
+        <item>4938378|Greenfield,MA|US</item>
+        <item>5255068|Greenfield,WI|US</item>
+        <item>5354172|Greenfield,CA|US</item>
+        <item>4513294|Greenfield,OH|US</item>
+        <item>4626344|Greenfield,TN|US</item>
+        <item>4859234|Greenfield,IA|US</item>
+        <item>5028795|Greenfield,MN|US</item>
+        <item>5354171|Greenfield,CA|US</item>
+        <item>3430708|Mercedes,Buenos Aires|AR</item>
+        <item>3430709|Mercedes,Corrientes|AR</item>
+        <item>5100280|Lakewood,NJ|US</item>
+        <item>5160315|Lakewood,OH|US</item>
+        <item>5364855|Lakewood,CA|US</item>
+        <item>5427946|Lakewood,CO|US</item>
+        <item>5800420|Lakewood,WA|US</item>
+        <item>4584524|Lakewood,SC|US</item>
+        <item>4635340|Lakewood,TN|US</item>
+        <item>4899249|Lakewood,IL|US</item>
+        <item>5123929|Lakewood,NY|US</item>
+        <item>1794904|Shiyan,Hubei Sheng|CN</item>
+        <item>1794903|Shiyan,Hubei Sheng|CN</item>
+        <item>5145028|Woodmere,NY|US</item>
+        <item>4346615|Woodmere,LA|US</item>
+        <item>5293083|Douglas,AZ|US</item>
+        <item>4191916|Douglas,GA|US</item>
+        <item>4934999|Douglas,MA|US</item>
+        <item>5823516|Douglas,WY|US</item>
+        <item>4853828|Des Moines,IA|US</item>
+        <item>5792244|Des Moines,WA|US</item>
+        <item>4107823|De Witt,AR|US</item>
+        <item>4853551|De Witt,IA|US</item>
+        <item>4070806|Kimberly,AL|US</item>
+        <item>5258575|Kimberly,WI|US</item>
+        <item>5597783|Kimberly,ID|US</item>
+        <item>2022064|Kirovskiy,Primorskiy kray|RU</item>
+        <item>548383|Kirovskiy,Kurskaya oblast'|RU</item>
+        <item>548387|Kirovskiy,Astrakhanskaya oblast'|RU</item>
+        <item>2892460|Kastl,BY|DE</item>
+        <item>2892461|Kastl,BY|DE</item>
+        <item>1855580|Naruto,Tokushima-ken|JP</item>
+        <item>2111677|Naruto,Chiba-ken|JP</item>
+        <item>3673269|Palestina,Caldas|CO</item>
+        <item>3673275|Palestina,Huila|CO</item>
+        <item>4161438|Lakeland,FL|US</item>
+        <item>4204775|Lakeland,GA|US</item>
+        <item>4635268|Lakeland,TN|US</item>
+        <item>5123872|Lakeland,NY|US</item>
+        <item>4515843|Kettering,OH|US</item>
+        <item>4359858|Kettering,MD|US</item>
+        <item>4886716|Carthage,IL|US</item>
+        <item>4380202|Carthage,MO|US</item>
+        <item>4420799|Carthage,MS|US</item>
+        <item>4459426|Carthage,NC|US</item>
+        <item>4611656|Carthage,TN|US</item>
+        <item>4679272|Carthage,TX|US</item>
+        <item>4886717|Carthage,IL|US</item>
+        <item>5111656|Carthage,NY|US</item>
+        <item>682499|Cazanesti,MH|RO</item>
+        <item>682501|Cazanesti,IL|RO</item>
+        <item>5220093|Woodside,PA|US</item>
+        <item>5410535|Woodside,CA|US</item>
+        <item>5249871|Cudahy,WI|US</item>
+        <item>5341051|Cudahy,CA|US</item>
+        <item>678688|Dumbravita,TM|RO</item>
+        <item>678680|Dumbravita,MM|RO</item>
+        <item>678689|Dumbravita,BV|RO</item>
+        <item>4726491|San Marcos,TX|US</item>
+        <item>5392368|San Marcos,CA|US</item>
+        <item>5795906|Graham,WA|US</item>
+        <item>4468525|Graham,NC|US</item>
+        <item>4694420|Graham,TX|US</item>
+        <item>4288230|Cold Spring,KY|US</item>
+        <item>5021788|Cold Spring,MN|US</item>
+        <item>5113196|Cold Spring,NY|US</item>
+        <item>4269872|Concordia,KS|US</item>
+        <item>4382119|Concordia,MO|US</item>
+        <item>5096867|Concordia,NJ|US</item>
+        <item>2759163|Berg,LI|NL</item>
+        <item>2759164|Berg,LI|NL</item>
+        <item>4930385|Berkley,MA|US</item>
+        <item>4985744|Berkley,MI|US</item>
+        <item>5413519|Berkley,CO|US</item>
+        <item>3530531|Coatepec,Ver.|MX</item>
+        <item>3530532|Coatepec,Pue.|MX</item>
+        <item>4178215|Whitfield,FL|US</item>
+        <item>5219331|Whitfield,PA|US</item>
+        <item>496346|Severnyy,МО|RU</item>
+        <item>496358|Severnyy,Belgorodskaya oblast'|RU</item>
+        <item>1799383|Ninghai,Shandong Sheng|CN</item>
+        <item>1799384|Ninghai,Zhejiang Sheng|CN</item>
+        <item>5198034|Limerick,PA|US</item>
+        <item>4969529|Limerick,ME|US</item>
+        <item>1681249|Tuban,MIMAROPA|PH</item>
+        <item>1681250|Tuban,Davao Region|PH</item>
+        <item>790319|Gorno Orizari,Municipality of Veles|MK</item>
+        <item>790320|Gorno Orizari,Municipality of Bitola|MK</item>
+        <item>1710744|Infanta,Ilocos Region|PH</item>
+        <item>1710745|Infanta,Calabarzon|PH</item>
+        <item>3687644|Candelaria,Valle del Cauca|CO</item>
+        <item>3687634|Candelaria,Atlántico|CO</item>
+        <item>1691441|Roxas,Cagayan Valley|PH</item>
+        <item>1691446|Roxas,MIMAROPA|PH</item>
+        <item>1691442|Roxas,MIMAROPA|PH</item>
+        <item>5152935|Edgerton,OH|US</item>
+        <item>5251524|Edgerton,WI|US</item>
+        <item>5513307|Sun Valley,NV|US</item>
+        <item>5214809|Sun Valley,PA|US</item>
+        <item>5214810|Sun Valley,PA|US</item>
+        <item>3199779|Gracanica,Federacija Bosne i Hercegovine|BA</item>
+        <item>3199784|Gracanica,Federacija Bosne i Hercegovine|BA</item>
+        <item>1687752|Santo Cristo,Central Luzon|PH</item>
+        <item>1687753|Santo Cristo,Central Luzon|PH</item>
+        <item>3836772|San Pedro,Jujuy|AR</item>
+        <item>3428577|San Pedro,Misiónes|AR</item>
+        <item>4474382|Kings Grant,NC|US</item>
+        <item>4474383|Kings Grant,NC|US</item>
+        <item>4728328|Sherman,TX|US</item>
+        <item>4249885|Sherman,IL|US</item>
+        <item>4679987|Center,TX|US</item>
+        <item>4679988|Center,TX|US</item>
+        <item>5416565|Center,CO|US</item>
+        <item>4332109|Luling,LA|US</item>
+        <item>4708320|Luling,TX|US</item>
+        <item>5125086|Long Beach,NY|US</item>
+        <item>5367929|Long Beach,CA|US</item>
+        <item>4434069|Long Beach,MS|US</item>
+        <item>4476919|Long Beach,NC|US</item>
+        <item>4178397|Williamsburg,FL|US</item>
+        <item>4313563|Williamsburg,KY|US</item>
+        <item>4528414|Williamsburg,OH|US</item>
+        <item>4793846|Williamsburg,VA|US</item>
+        <item>4882007|Williamsburg,IA|US</item>
+        <item>4955778|Williamsburg,MA|US</item>
+        <item>4161580|Largo,FL|US</item>
+        <item>4360345|Largo,MD|US</item>
+        <item>2511447|San Bartolome,CN|ES</item>
+        <item>2511440|San Bartolome,CN|ES</item>
+        <item>3519530|Sanctorum,Tlax.|MX</item>
+        <item>3519531|Sanctorum,Pue.|MX</item>
+        <item>4772566|Mechanicsville,VA|US</item>
+        <item>5200669|Mechanicsville,PA|US</item>
+        <item>1645518|Depok,Jogja|ID</item>
+        <item>1645524|Depok,Jawa Barat|ID</item>
+        <item>4942744|Ludlow,MA|US</item>
+        <item>4299531|Ludlow,KY|US</item>
+        <item>4278471|Russell,KS|US</item>
+        <item>4306972|Russell,KY|US</item>
+        <item>510814|Pervomayskoye,Leningradskaya oblast'|RU</item>
+        <item>510842|Pervomayskoye,Karachaevo-Cherkesskaya Republits|RU</item>
+        <item>797213|Pervomayskoye,Dagestan Republits|RU</item>
+        <item>1495256|Pervomayskoye,Tomskaya oblast'|RU</item>
+        <item>1495259|Pervomayskoye,Altayskiy kray|RU</item>
+        <item>1694826|General Tinio,Central Luzon|PH</item>
+        <item>1713018|General Tinio,Central Luzon|PH</item>
+        <item>4364946|Parkville,MD|US</item>
+        <item>4402544|Parkville,MO|US</item>
+        <item>4560237|Parkville,PA|US</item>
+        <item>5040863|Parkville,MN|US</item>
+        <item>2924915|Freudenberg,NRW|DE</item>
+        <item>2924916|Freudenberg,BW|DE</item>
+        <item>2924917|Freudenberg,BY|DE</item>
+        <item>4058061|Daleville,AL|US</item>
+        <item>4755173|Daleville,VA|US</item>
+        <item>1718319|Carmen,Ilocos Region|PH</item>
+        <item>1718320|Carmen,Central Luzon|PH</item>
+        <item>1718324|Carmen,MIMAROPA|PH</item>
+        <item>1718332|Carmen,Central Visayas|PH</item>
+        <item>1718333|Carmen,Caraga|PH</item>
+        <item>1718334|Carmen,Caraga|PH</item>
+        <item>1718337|Carmen,Davao Region|PH</item>
+        <item>1718338|Carmen,SOCCSKSARGEN|PH</item>
+        <item>4012406|Cuauhtemoc,Chih.|MX</item>
+        <item>3482886|Cuauhtemoc,Tamps.|MX</item>
+        <item>4012408|Cuauhtemoc,Col.|MX</item>
+        <item>4213771|Oakwood,GA|US</item>
+        <item>4213772|Oakwood,GA|US</item>
+        <item>4520163|Oakwood,OH|US</item>
+        <item>5165311|Oakwood,OH|US</item>
+        <item>5204220|Oakwood,PA|US</item>
+        <item>4180386|Athens,GA|US</item>
+        <item>4505542|Athens,OH|US</item>
+        <item>4830668|Athens,AL|US</item>
+        <item>4232997|Athens,IL|US</item>
+        <item>4603284|Athens,TN|US</item>
+        <item>4671545|Athens,TX|US</item>
+        <item>5178651|Athens,PA|US</item>
+        <item>508362|Podgornoye,Voronezhskaya oblast'|RU</item>
+        <item>508366|Podgornoye,Voronezhskaya oblast'|RU</item>
+        <item>1494790|Podgornoye,Tomskaya oblast'|RU</item>
+        <item>2933965|Ebersbach,SN|DE</item>
+        <item>3209001|Ebersbach,SN|DE</item>
+        <item>2908873|Hausen,RP|DE</item>
+        <item>2908886|Hausen,BY|DE</item>
+        <item>2908888|Hausen,BY|DE</item>
+        <item>2908896|Hausen,BY|DE</item>
+        <item>2908913|Hausen,BW|DE</item>
+        <item>5229794|Mitchell,SD|US</item>
+        <item>4261486|Mitchell,IN|US</item>
+        <item>1926055|Ozu,Ehime-ken|JP</item>
+        <item>1853433|Ozu,Kumamoto-ken|JP</item>
+        <item>2113077|Asahi,Chiba-ken|JP</item>
+        <item>6697514|Asahi,Fukui-ken|JP</item>
+        <item>1690245|San Benito,Central Luzon|PH</item>
+        <item>1690253|San Benito,Caraga|PH</item>
+        <item>5688789|Dickinson,ND|US</item>
+        <item>4686163|Dickinson,TX|US</item>
+        <item>1683860|Talisay,Calabarzon|PH</item>
+        <item>1683877|Talisay,Western Visayas|PH</item>
+        <item>1683881|Talisay,Central Visayas|PH</item>
+        <item>1683859|Talisay,Bicol|PH</item>
+        <item>1683861|Talisay,Calabarzon|PH</item>
+        <item>1683862|Talisay,Calabarzon|PH</item>
+        <item>1683865|Talisay,Calabarzon|PH</item>
+        <item>1683871|Talisay,Central Visayas|PH</item>
+        <item>1683883|Talisay,Caraga|PH</item>
+        <item>1683886|Talisay,Davao Region|PH</item>
+        <item>5021723|Cohasset,MN|US</item>
+        <item>4933533|Cohasset,MA|US</item>
+        <item>2636810|Stonehouse,Scotland|GB</item>
+        <item>2636811|Stonehouse,England|GB</item>
+        <item>5123247|Kenmore,NY|US</item>
+        <item>5799587|Kenmore,WA|US</item>
+        <item>4895282|Harvard,IL|US</item>
+        <item>4938957|Harvard,MA|US</item>
+        <item>1258726|Ramapuram,TN|IN</item>
+        <item>1258724|Ramapuram,AP|IN</item>
+        <item>7932612|Glen Iris,VIC|AU</item>
+        <item>2079707|Glen Iris,WA|AU</item>
+        <item>709078|Frunze,Luhans'ka oblast|UA</item>
+        <item>3530757|Cholula,Pue.|MX</item>
+        <item>3530756|Cholula,Méx.|MX</item>
+        <item>1694775|Parang,ARMM|PH</item>
+        <item>1694767|Parang,Central Luzon|PH</item>
+        <item>1694773|Parang,Caraga|PH</item>
+        <item>1694776|Parang,ARMM|PH</item>
+        <item>2814570|Wallhausen,SA|DE</item>
+        <item>2814572|Wallhausen,BW|DE</item>
+        <item>1681061|Tuburan,Bicol|PH</item>
+        <item>1681079|Tuburan,ARMM|PH</item>
+        <item>2332079|Lere,KD|NG</item>
+        <item>2332080|Lere,BA|NG</item>
+        <item>4903730|Niles,IL|US</item>
+        <item>5164582|Niles,OH|US</item>
+        <item>5003514|Niles,MI|US</item>
+        <item>5166177|Parma,OH|US</item>
+        <item>5603310|Parma,ID|US</item>
+        <item>4158928|Hollywood,FL|US</item>
+        <item>5357527|Hollywood,CA|US</item>
+        <item>4582042|Hollywood,SC|US</item>
+        <item>5106298|West Orange,NJ|US</item>
+        <item>4740987|West Orange,TX|US</item>
+        <item>4792901|West Springfield,VA|US</item>
+        <item>4955089|West Springfield,MA|US</item>
+        <item>3470409|Barro Alto,GO|BR</item>
+        <item>3470410|Barro Alto,BA|BR</item>
+        <item>1688338|Santa Clara,Calabarzon|PH</item>
+        <item>1688340|Santa Clara,ARMM|PH</item>
+        <item>4401618|Oakville,MO|US</item>
+        <item>4839921|Oakville,CT|US</item>
+        <item>3670502|Sabanalarga,Atlántico|CO</item>
+        <item>3670506|Sabanalarga,Antioquia|CO</item>
+        <item>4134716|Van Buren,AR|US</item>
+        <item>4981710|Van Buren,ME|US</item>
+        <item>1718426|Cardona,Calabarzon|PH</item>
+        <item>1718425|Cardona,Central Luzon|PH</item>
+        <item>4379644|Cameron,MO|US</item>
+        <item>4678357|Cameron,TX|US</item>
+        <item>1699060|Murcia,Western Visayas|PH</item>
+        <item>1699059|Murcia,Central Luzon|PH</item>
+        <item>463343|Zheleznogorsk,Kurskaya oblast'|RU</item>
+        <item>1538635|Zheleznogorsk,Krasnoyarskiy kray|RU</item>
+        <item>4558475|Hanover,PA|US</item>
+        <item>4938836|Hanover,MA|US</item>
+        <item>4258510|Hanover,IN|US</item>
+        <item>5029276|Hanover,MN|US</item>
+        <item>5087168|Hanover,NH|US</item>
+        <item>4905006|Ottawa,IL|US</item>
+        <item>4276816|Ottawa,KS|US</item>
+        <item>5165801|Ottawa,OH|US</item>
+        <item>4835512|Guilford,CT|US</item>
+        <item>7258686|Guilford,PA|US</item>
+        <item>1731686|Alaminos,Calabarzon|PH</item>
+        <item>1731685|Alaminos,Ilocos Region|PH</item>
+        <item>3117606|Malpica,GA|ES</item>
+        <item>2514219|Malpica,CM|ES</item>
+        <item>787716|Negotino,Municipality of Negotino|MK</item>
+        <item>787715|Negotino,Vrapchishte|MK</item>
+        <item>4907907|Rock Island,IL|US</item>
+        <item>4170301|Rock Island,FL|US</item>
+        <item>1861107|Izumi,Ōsaka-fu|JP</item>
+        <item>1861108|Izumi,Kagoshima-ken|JP</item>
+        <item>1504075|Kazachinskoye,Krasnoyarskiy kray|RU</item>
+        <item>2023029|Kazachinskoye,Irkutskaya oblast'|RU</item>
+        <item>2939819|Coswig,SA|DE</item>
+        <item>2939820|Coswig,SN|DE</item>
+        <item>4236191|Collinsville,IL|US</item>
+        <item>4056381|Collinsville,AL|US</item>
+        <item>4422398|Collinsville,MS|US</item>
+        <item>4533909|Collinsville,OK|US</item>
+        <item>4753635|Collinsville,VA|US</item>
+        <item>5284335|Collinsville,CT|US</item>
+        <item>675865|Iacobeni,SV|RO</item>
+        <item>675868|Iacobeni,SB|RO</item>
+        <item>4017924|Ayutla,Jal.|MX</item>
+        <item>3532506|Ayutla,Pue.|MX</item>
+        <item>2648657|Gillingham,England|GB</item>
+        <item>2648658|Gillingham,England|GB</item>
+        <item>3065180|Stepanov,Olomoucký kraj|CZ</item>
+        <item>3065185|Stepanov,Olomoucký kraj|CZ</item>
+        <item>4099296|Alma,AR|US</item>
+        <item>4179557|Alma,GA|US</item>
+        <item>4984049|Alma,MI|US</item>
+        <item>3448033|Sapucaia,RJ|BR</item>
+        <item>3448031|Sapucaia,RS|BR</item>
+        <item>4716805|Orange,TX|US</item>
+        <item>5102213|Orange,NJ|US</item>
+        <item>5379513|Orange,CA|US</item>
+        <item>4777454|Orange,VA|US</item>
+        <item>4840104|Orange,CT|US</item>
+        <item>4946383|Orange,MA|US</item>
+        <item>5165695|Orange,OH|US</item>
+        <item>5110302|Brooklyn,NY|US</item>
+        <item>5148346|Brooklyn,OH|US</item>
+        <item>1693795|Pili,Bicol|PH</item>
+        <item>1693798|Pili,MIMAROPA|PH</item>
+        <item>1693799|Pili,Bicol|PH</item>
+        <item>1693805|Pili,Western Visayas|PH</item>
+        <item>1263309|Mau,MP|IN</item>
+        <item>1263311|Mau,UP|IN</item>
+        <item>1681676|Tiwi,Bicol|PH</item>
+        <item>1681677|Tiwi,Western Visayas|PH</item>
+        <item>5158143|Hubbard,OH|US</item>
+        <item>5732311|Hubbard,OR|US</item>
+        <item>5261969|Marshfield,WI|US</item>
+        <item>4397238|Marshfield,MO|US</item>
+        <item>4943204|Marshfield,MA|US</item>
+        <item>1795196|Tongchuan,Shaanxi Sheng|CN</item>
+        <item>1792692|Tongchuan,Sichuan Sheng|CN</item>
+        <item>2955368|Arzberg,BY|DE</item>
+        <item>2955367|Arzberg,SN|DE</item>
+        <item>4151316|Clearwater,FL|US</item>
+        <item>4269690|Clearwater,KS|US</item>
+        <item>4574947|Clearwater,SC|US</item>
+        <item>2738221|Lordelo,Braga|PT</item>
+        <item>2738224|Lordelo,Porto|PT</item>
+        <item>4316523|Berwick,LA|US</item>
+        <item>4832356|Berwick,ME|US</item>
+        <item>5180119|Berwick,PA|US</item>
+        <item>4480125|Mooresville,NC|US</item>
+        <item>4261585|Mooresville,IN|US</item>
+        <item>4539145|Hugo,OK|US</item>
+        <item>5030884|Hugo,MN|US</item>
+        <item>1730501|Antipolo,Calabarzon|PH</item>
+        <item>1730499|Antipolo,Central Luzon|PH</item>
+        <item>1730508|Antipolo,Bicol|PH</item>
+        <item>1730509|Antipolo,Bicol|PH</item>
+        <item>1730515|Antipolo,Central Visayas|PH</item>
+        <item>1730517|Antipolo,Western Visayas|PH</item>
+        <item>3621687|San Rafael,Provincia de Alajuela|CR</item>
+        <item>3621689|San Rafael,San José|CR</item>
+        <item>3621679|San Rafael,Provincia de Alajuela|CR</item>
+        <item>3621683|San Rafael,Heredia|CR</item>
+        <item>4282757|Ashland,KY|US</item>
+        <item>4929283|Ashland,MA|US</item>
+        <item>5146055|Ashland,OH|US</item>
+        <item>5325011|Ashland,CA|US</item>
+        <item>5711789|Ashland,OR|US</item>
+        <item>4375229|Ashland,MO|US</item>
+        <item>4500538|Ashland,NJ|US</item>
+        <item>4744905|Ashland,VA|US</item>
+        <item>4830687|Ashland,AL|US</item>
+        <item>5063229|Ashland,NE|US</item>
+        <item>5178597|Ashland,PA|US</item>
+        <item>5244247|Ashland,WI|US</item>
+        <item>4883555|Arlington Heights,IL|US</item>
+        <item>5178489|Arlington Heights,PA|US</item>
+        <item>5785858|Arlington Heights,WA|US</item>
+        <item>4705191|Lancaster,TX|US</item>
+        <item>4516233|Lancaster,OH|US</item>
+        <item>5197079|Lancaster,PA|US</item>
+        <item>5364940|Lancaster,CA|US</item>
+        <item>4297354|Lancaster,KY|US</item>
+        <item>4584556|Lancaster,SC|US</item>
+        <item>4941635|Lancaster,MA|US</item>
+        <item>5123954|Lancaster,NY|US</item>
+        <item>5259448|Lancaster,WI|US</item>
+        <item>1681138|Tubod,Central Visayas|PH</item>
+        <item>1681149|Tubod,Northern Mindanao|PH</item>
+        <item>1681150|Tubod,Davao Region|PH</item>
+        <item>4094163|Troy,AL|US</item>
+        <item>5012639|Troy,MI|US</item>
+        <item>5141502|Troy,NY|US</item>
+        <item>5174358|Troy,OH|US</item>
+        <item>4251513|Troy,IL|US</item>
+        <item>4412089|Troy,MO|US</item>
+        <item>4495714|Troy,NC|US</item>
+        <item>2824229|Tann,HE|DE</item>
+        <item>2824230|Tann,BY|DE</item>
+        <item>556463|Imeni Vorovskogo,МО|RU</item>
+        <item>556462|Imeni Vorovskogo,Vladimirskaya oblast'|RU</item>
+        <item>1800498|Mingshui,Shandong Sheng|CN</item>
+        <item>2035758|Mingshui,Heilongjiang Sheng|CN</item>
+        <item>296791|Yesilyurt,Malatya|TR</item>
+        <item>737529|Yesilyurt,Tokat|TR</item>
+        <item>4568570|Vieques,Loíza|PR</item>
+        <item>4568571|Vieques,Vieques|PR</item>
+        <item>4069243|Irondale,AL|US</item>
+        <item>4202260|Irondale,GA|US</item>
+        <item>4999311|Lincoln Park,MI|US</item>
+        <item>5100477|Lincoln Park,NJ|US</item>
+        <item>5124463|Lincoln Park,NY|US</item>
+        <item>5428534|Lincoln Park,CO|US</item>
+        <item>684389|Bogdanesti,CJ|RO</item>
+        <item>684391|Bogdanesti,SV|RO</item>
+        <item>684399|Bogdanesti,BC|RO</item>
+        <item>3835994|Santa Rosa,La Pampa|AR</item>
+        <item>3428182|Santa Rosa,Corrientes|AR</item>
+        <item>1682262|Tigbao,Bicol|PH</item>
+        <item>1682275|Tigbao,Zamboanga Peninsula|PH</item>
+        <item>311645|Ihsaniye,Afyonkarahisar|TR</item>
+        <item>745383|Ihsaniye,Kocaeli|TR</item>
+        <item>1256752|Shahabad,HR|IN</item>
+        <item>1256753|Shahabad,UP|IN</item>
+        <item>1256755|Shahabad,UP|IN</item>
+        <item>1256759|Shahabad,KA|IN</item>
+        <item>4516677|Lincoln Heights,OH|US</item>
+        <item>5160854|Lincoln Heights,OH|US</item>
+        <item>5021784|Collegeville,MN|US</item>
+        <item>5184966|Collegeville,PA|US</item>
+        <item>4248256|Robinson,IL|US</item>
+        <item>4723165|Robinson,TX|US</item>
+        <item>4939881|Hopkinton,MA|US</item>
+        <item>5087639|Hopkinton,NH|US</item>
+        <item>5222680|Hopkinton,RI|US</item>
+        <item>872144|Sovkhoznyy,Krasnodarskiy kray|RU</item>
+        <item>1491215|Sovkhoznyy,Sverdlovskaya oblast'|RU</item>
+        <item>1493273|Sovkhoznyy,Sverdlovskaya oblast'|RU</item>
+        <item>1859094|Koga,Fukuoka-ken|JP</item>
+        <item>1859093|Koga,Ibaraki-ken|JP</item>
+        <item>2656396|Bangor,Northern Ireland|GB</item>
+        <item>2656397|Bangor,Wales|GB</item>
+        <item>5301067|Kingman,AZ|US</item>
+        <item>4273978|Kingman,KS|US</item>
+        <item>1687725|Santo Domingo,Central Luzon|PH</item>
+        <item>1687714|Santo Domingo,Cagayan Valley|PH</item>
+        <item>1687727|Santo Domingo,Central Luzon|PH</item>
+        <item>1687733|Santo Domingo,Bicol|PH</item>
+        <item>1687738|Santo Domingo,Bicol|PH</item>
+        <item>1687742|Santo Domingo,Bicol|PH</item>
+        <item>673386|Mihailesti,BZ|RO</item>
+        <item>673387|Mihailesti,GR|RO</item>
+        <item>2020841|Leninskoye,Еврейская Аутономус Область|RU</item>
+        <item>536035|Leninskoye,Kirovskaya oblast'|RU</item>
+        <item>5043556|Rockford,MN|US</item>
+        <item>4907959|Rockford,IL|US</item>
+        <item>5007436|Rockford,MI|US</item>
+        <item>664311|Ulmeni,MM|RO</item>
+        <item>664312|Ulmeni,BZ|RO</item>
+        <item>664314|Ulmeni,CL|RO</item>
+        <item>3669857|San Francisco,Antioquia|CO</item>
+        <item>3669860|San Francisco,Cundinamarca|CO</item>
+        <item>3669881|San Francisco,Putumayo|CO</item>
+        <item>2866906|Naumburg,SA|DE</item>
+        <item>2866905|Naumburg,HE|DE</item>
+        <item>4901944|Mendota,IL|US</item>
+        <item>5372190|Mendota,CA|US</item>
+        <item>1684892|Tabon,Central Luzon|PH</item>
+        <item>1684899|Tabon,Central Visayas|PH</item>
+        <item>1684901|Tabon,Central Visayas|PH</item>
+        <item>1684902|Tabon,MIMAROPA|PH</item>
+        <item>1269447|Jalalabad,UP|IN</item>
+        <item>1269445|Jalalabad,PB|IN</item>
+        <item>1269446|Jalalabad,UP|IN</item>
+        <item>489778|Spasskoye,Nizhegorodskaya oblast'|RU</item>
+        <item>2016183|Spasskoye,Primorskiy kray|RU</item>
+        <item>1524298|Aqsu,Pavlodar Province|KZ</item>
+        <item>1526271|Aqsu,Akmola Province|KZ</item>
+        <item>4593142|Rock Hill,SC|US</item>
+        <item>4406041|Rock Hill,MO|US</item>
+        <item>4018543|Anahuac,Chih.|MX</item>
+        <item>3532870|Anahuac,Ver.|MX</item>
+        <item>3981885|Tequila,Jal.|MX</item>
+        <item>3515799|Tequila,Ver.|MX</item>
+        <item>5391811|San Diego,CA|US</item>
+        <item>4726311|San Diego,TX|US</item>
+        <item>4407066|Saint Louis,MO|US</item>
+        <item>5008414|Saint Louis,MI|US</item>
+        <item>671224|Paulesti,SM|RO</item>
+        <item>671228|Paulesti,PH|RO</item>
+        <item>1713714|Estrella,Central Luzon|PH</item>
+        <item>1713715|Estrella,MIMAROPA|PH</item>
+        <item>4951248|Somerset,MA|US</item>
+        <item>5104755|Somerset,NJ|US</item>
+        <item>4308922|Somerset,KY|US</item>
+        <item>5212853|Somerset,PA|US</item>
+        <item>5273620|Somerset,WI|US</item>
+        <item>5107760|Baldwin,NY|US</item>
+        <item>5178940|Baldwin,PA|US</item>
+        <item>4180868|Baldwin,GA|US</item>
+        <item>4315342|Baldwin,LA|US</item>
+        <item>5244570|Baldwin,WI|US</item>
+        <item>4221552|Savannah,GA|US</item>
+        <item>4407665|Savannah,MO|US</item>
+        <item>4656006|Savannah,TN|US</item>
+        <item>5854469|Wailua,HI|US</item>
+        <item>5854471|Wailua,HI|US</item>
+        <item>1686318|Sinait,Ilocos Region|PH</item>
+        <item>1686319|Sinait,Central Luzon|PH</item>
+        <item>1258868|Rajgarh,RJ|IN</item>
+        <item>1258869|Rajgarh,RJ|IN</item>
+        <item>1258875|Rajgarh,MP|IN</item>
+        <item>1258876|Rajgarh,MP|IN</item>
+        <item>1258867|Rajgarh,HP|IN</item>
+        <item>496385|Severnoye,Stavropolskiy kray|RU</item>
+        <item>496381|Severnoye,Orenburgskaya oblast'|RU</item>
+        <item>1492607|Severnoye,Novosibirskaya oblast'|RU</item>
+        <item>4364537|Olney,MD|US</item>
+        <item>4246382|Olney,IL|US</item>
+        <item>4716683|Olney,TX|US</item>
+        <item>3839262|Recreo,Santa Fe|AR</item>
+        <item>3839263|Recreo,Catamarca|AR</item>
+        <item>2822436|Tiefenbach,BY|DE</item>
+        <item>2822443|Tiefenbach,BY|DE</item>
+        <item>5046063|Savage,MN|US</item>
+        <item>4368879|Savage,MD|US</item>
+        <item>564719|Dubna,МО|RU</item>
+        <item>564723|Dubna,Tulskaya oblast'|RU</item>
+        <item>2749450|Oosterhout,NB|NL</item>
+        <item>2749449|Oosterhout,GE|NL</item>
+        <item>762390|Piaski,lubelskie|PL</item>
+        <item>3089217|Piaski,wielkopolskie|PL</item>
+        <item>2929499|Erlenbach,BY|DE</item>
+        <item>2929506|Erlenbach,BW|DE</item>
+        <item>481605|Troitskaya,Ingushetiya Republits|RU</item>
+        <item>481604|Troitskaya,Krasnodarskiy kray|RU</item>
+        <item>1689954|Del Monte,NCR|PH</item>
+        <item>1958286|Del Monte,Zamboanga Peninsula|PH</item>
+        <item>4835797|Hartford,CT|US</item>
+        <item>4066437|Hartford,AL|US</item>
+        <item>4294195|Hartford,KY|US</item>
+        <item>4995468|Hartford,MI|US</item>
+        <item>5228353|Hartford,SD|US</item>
+        <item>5255628|Hartford,WI|US</item>
+        <item>5192726|Harrisburg,PA|US</item>
+        <item>4113951|Harrisburg,AR|US</item>
+        <item>4240284|Harrisburg,IL|US</item>
+        <item>4470109|Harrisburg,NC|US</item>
+        <item>5228340|Harrisburg,SD|US</item>
+        <item>5730389|Harrisburg,OR|US</item>
+        <item>1729271|Bagacay,Bicol|PH</item>
+        <item>1729278|Bagacay,Bicol|PH</item>
+        <item>1729303|Bagacay,Central Visayas|PH</item>
+        <item>1729304|Bagacay,Central Visayas|PH</item>
+        <item>4535389|Duncan,OK|US</item>
+        <item>4577083|Duncan,SC|US</item>
+        <item>4168459|Pine Hills,FL|US</item>
+        <item>5569523|Pine Hills,CA|US</item>
+        <item>5125817|Manorville,NY|US</item>
+        <item>5125818|Manorville,NY|US</item>
+        <item>5097672|Englewood,NJ|US</item>
+        <item>5421250|Englewood,CO|US</item>
+        <item>4154465|Englewood,FL|US</item>
+        <item>4511064|Englewood,OH|US</item>
+        <item>5145607|Alliance,OH|US</item>
+        <item>5693164|Alliance,NE|US</item>
+        <item>673093|Marsa,GR|RO</item>
+        <item>6930430|Marsa,SB|RO</item>
+        <item>1267449|Katra,UP|IN</item>
+        <item>1706757|Libacao,Western Visayas|PH</item>
+        <item>1706758|Libacao,Western Visayas|PH</item>
+        <item>668314|Sacele,BV|RO</item>
+        <item>668315|Sacele,CT|RO</item>
+        <item>680176|Cristesti,BT|RO</item>
+        <item>680177|Cristesti,IS|RO</item>
+        <item>680180|Cristesti,MS|RO</item>
+        <item>1710347|Jalaud,Western Visayas|PH</item>
+        <item>1710348|Jalaud,Western Visayas|PH</item>
+        <item>3407366|Aracoiaba,PE|BR</item>
+        <item>3407367|Aracoiaba,CE|BR</item>
+        <item>1722038|Cabacungan,Eastern Visayas|PH</item>
+        <item>1722039|Cabacungan,Western Visayas|PH</item>
+        <item>5582392|Sterling,CO|US</item>
+        <item>4787534|Sterling,VA|US</item>
+        <item>4912499|Sterling,IL|US</item>
+        <item>4279983|Sterling,KS|US</item>
+        <item>4952005|Sterling,MA|US</item>
+        <item>5875173|Sterling,AK|US</item>
+        <item>4984029|Allendale,MI|US</item>
+        <item>4569207|Allendale,SC|US</item>
+        <item>5095124|Allendale,NJ|US</item>
+        <item>4939783|Holyoke,MA|US</item>
+        <item>5578099|Holyoke,CO|US</item>
+        <item>4383041|Crystal City,MO|US</item>
+        <item>4684480|Crystal City,TX|US</item>
+        <item>5288856|Cave Creek,AZ|US</item>
+        <item>5288858|Cave Creek,AZ|US</item>
+        <item>4067862|Holtville,AL|US</item>
+        <item>5357598|Holtville,CA|US</item>
+        <item>4911640|Sleepy Hollow,IL|US</item>
+        <item>5138371|Sleepy Hollow,NY|US</item>
+        <item>5396422|Sleepy Hollow,CA|US</item>
+        <item>4955993|Winthrop,MA|US</item>
+        <item>4983355|Winthrop,ME|US</item>
+        <item>4271935|Gardner,KS|US</item>
+        <item>4937557|Gardner,MA|US</item>
+        <item>4866445|Mason City,IA|US</item>
+        <item>4901390|Mason City,IL|US</item>
+        <item>3455459|Palmas,PR|BR</item>
+        <item>3474574|Palmas,TO|BR</item>
+        <item>679267|Dobra,HD|RO</item>
+        <item>679269|Dobra,DB|RO</item>
+        <item>5793832|Ephrata,WA|US</item>
+        <item>5188815|Ephrata,PA|US</item>
+        <item>3980169|Villa Hidalgo,Jal.|MX</item>
+        <item>3980167|Villa Hidalgo,Zac.|MX</item>
+        <item>3980168|Villa Hidalgo,Nay.|MX</item>
+        <item>4696876|Heath,TX|US</item>
+        <item>5157262|Heath,OH|US</item>
+        <item>5880568|Bethel,AK|US</item>
+        <item>4506308|Bethel,OH|US</item>
+        <item>4506309|Bethel,OH|US</item>
+        <item>4958084|Bethel,ME|US</item>
+        <item>5282297|Bethel,CT|US</item>
+        <item>5787076|Bethel,WA|US</item>
+        <item>6697993|Baia Mare,MM|RO</item>
+        <item>685826|Baia Mare,MM|RO</item>
+        <item>4303012|Okolona,KY|US</item>
+        <item>4439566|Okolona,MS|US</item>
+        <item>2942614|Buchenbach,BW|DE</item>
+        <item>2942612|Buchenbach,BY|DE</item>
+        <item>4148803|Brent,FL|US</item>
+        <item>4051669|Brent,AL|US</item>
+        <item>4917614|Angola,IN|US</item>
+        <item>5107227|Angola,NY|US</item>
+        <item>5201734|Monroeville,PA|US</item>
+        <item>4076725|Monroeville,AL|US</item>
+        <item>3030203|Breuillet,Île-de-France|FR</item>
+        <item>3030204|Breuillet,Nouvelle-Aquitaine|FR</item>
+        <item>4100525|Batesville,AR|US</item>
+        <item>4254185|Batesville,IN|US</item>
+        <item>4417130|Batesville,MS|US</item>
+        <item>679248|Dobresti,BH|RO</item>
+        <item>679255|Dobresti,DJ|RO</item>
+        <item>1259049|Raghunathpur,WB|IN</item>
+        <item>1259047|Raghunathpur,BR|IN</item>
+        <item>4161422|Lake Worth,FL|US</item>
+        <item>4704931|Lake Worth,TX|US</item>
+        <item>4868205|Mount Pleasant,IA|US</item>
+        <item>4588165|Mount Pleasant,SC|US</item>
+        <item>4712933|Mount Pleasant,TX|US</item>
+        <item>5002714|Mount Pleasant,MI|US</item>
+        <item>4559831|Mount Pleasant,PA|US</item>
+        <item>4643578|Mount Pleasant,TN|US</item>
+        <item>5202286|Mount Pleasant,PA|US</item>
+        <item>5543514|Mount Pleasant,UT|US</item>
+        <item>4944193|Milton,MA|US</item>
+        <item>6331908|Milton,GA|US</item>
+        <item>4143698|Milton,DE|US</item>
+        <item>4164547|Milton,FL|US</item>
+        <item>4333500|Milton,LA|US</item>
+        <item>4815044|Milton,WV|US</item>
+        <item>5127098|Milton,NY|US</item>
+        <item>5201470|Milton,PA|US</item>
+        <item>5263023|Milton,WI|US</item>
+        <item>5803556|Milton,WA|US</item>
+        <item>2521165|Belmonte,CM|ES</item>
+        <item>3128328|Belmonte,Principado de Asturias|ES</item>
+        <item>1278751|Ammapettai,TN|IN</item>
+        <item>1278752|Ammapettai,TN|IN</item>
+        <item>4239867|Greenville,IL|US</item>
+        <item>4428475|Greenville,MS|US</item>
+        <item>4469160|Greenville,NC|US</item>
+        <item>4580543|Greenville,SC|US</item>
+        <item>4695066|Greenville,TX|US</item>
+        <item>4065302|Greenville,AL|US</item>
+        <item>4142766|Greenville,DE|US</item>
+        <item>4293477|Greenville,KY|US</item>
+        <item>4994763|Greenville,MI|US</item>
+        <item>5119405|Greenville,NY|US</item>
+        <item>5156493|Greenville,OH|US</item>
+        <item>5192019|Greenville,PA|US</item>
+        <item>5222476|Greenville,RI|US</item>
+        <item>1264433|Maharajganj,UP|IN</item>
+        <item>1264436|Maharajganj,BR|IN</item>
+        <item>1264434|Maharajganj,UP|IN</item>
+        <item>1264435|Maharajganj,UP|IN</item>
+        <item>1727993|Baliwagan,Western Visayas|PH</item>
+        <item>1727982|Baliwagan,Northern Mindanao|PH</item>
+        <item>2075056|Campbelltown,SA|AU</item>
+        <item>2172586|Campbelltown,NSW|AU</item>
+        <item>3451234|Rio Claro,SP|BR</item>
+        <item>3451232|Rio Claro,RJ|BR</item>
+        <item>4420177|Byram,MS|US</item>
+        <item>5283149|Byram,CT|US</item>
+        <item>4938738|Hampden,MA|US</item>
+        <item>4966371|Hampden,ME|US</item>
+        <item>5036727|Marshall,MN|US</item>
+        <item>4709272|Marshall,TX|US</item>
+        <item>4243951|Marshall,IL|US</item>
+        <item>4397211|Marshall,MO|US</item>
+        <item>5000996|Marshall,MI|US</item>
+        <item>5261952|Marshall,WI|US</item>
+        <item>2944638|Breitenbrunn,BY|DE</item>
+        <item>2944630|Breitenbrunn,SN|DE</item>
+        <item>2944636|Breitenbrunn,BY|DE</item>
+        <item>5202534|Mountain Top,PA|US</item>
+        <item>5202535|Mountain Top,PA|US</item>
+        <item>5106529|Woodbridge,NJ|US</item>
+        <item>4794457|Woodbridge,VA|US</item>
+        <item>4846022|Woodbridge,CT|US</item>
+        <item>5410350|Woodbridge,CA|US</item>
+        <item>4143637|Middletown,DE|US</item>
+        <item>4518264|Middletown,OH|US</item>
+        <item>4838633|Middletown,CT|US</item>
+        <item>5126842|Middletown,NY|US</item>
+        <item>5223358|Middletown,RI|US</item>
+        <item>4300725|Middletown,KY|US</item>
+        <item>4362372|Middletown,MD|US</item>
+        <item>4923559|Middletown,IN|US</item>
+        <item>5201027|Middletown,PA|US</item>
+        <item>5201031|Middletown,PA|US</item>
+        <item>4743453|Yorktown,TX|US</item>
+        <item>4928492|Yorktown,IN|US</item>
+        <item>5245193|Beaver Dam,WI|US</item>
+        <item>4283557|Beaver Dam,KY|US</item>
+        <item>5552905|Beaver Dam,AZ|US</item>
+        <item>5336269|Chico,CA|US</item>
+        <item>5789949|Chico,WA|US</item>
+        <item>4299276|Louisville,KY|US</item>
+        <item>5429522|Louisville,CO|US</item>
+        <item>4206882|Louisville,GA|US</item>
+        <item>4434283|Louisville,MS|US</item>
+        <item>4638308|Louisville,TN|US</item>
+        <item>5161347|Louisville,OH|US</item>
+        <item>551439|Kazanskaya,Krasnodarskiy kray|RU</item>
+        <item>551438|Kazanskaya,Rostovskaya oblast'|RU</item>
+        <item>4261032|Martinsville,IN|US</item>
+        <item>4771808|Martinsville,VA|US</item>
+        <item>5100924|Martinsville,NJ|US</item>
+        <item>4262072|New Castle,IN|US</item>
+        <item>5203127|New Castle,PA|US</item>
+        <item>4143834|New Castle,DE|US</item>
+        <item>5432549|New Castle,CO|US</item>
+        <item>5206038|Pine Grove,PA|US</item>
+        <item>5382907|Pine Grove,CA|US</item>
+        <item>4299670|Madisonville,KY|US</item>
+        <item>4639072|Madisonville,TN|US</item>
+        <item>4708703|Madisonville,TX|US</item>
+        <item>4409199|Smithville,MO|US</item>
+        <item>4504164|Smithville,NJ|US</item>
+        <item>4658541|Smithville,TN|US</item>
+        <item>4729284|Smithville,TX|US</item>
+        <item>4315535|Bastrop,LA|US</item>
+        <item>4672576|Bastrop,TX|US</item>
+        <item>4312671|Walton,KY|US</item>
+        <item>5143156|Walton,NY|US</item>
+        <item>4627863|Harriman,TN|US</item>
+        <item>5120062|Harriman,NY|US</item>
+        <item>4893171|Freeport,IL|US</item>
+        <item>5117949|Freeport,NY|US</item>
+        <item>4692355|Freeport,TX|US</item>
+        <item>1688035|Santa Maria,Central Luzon|PH</item>
+        <item>1688017|Santa Maria,Ilocos Region|PH</item>
+        <item>1688058|Santa Maria,Davao Region|PH</item>
+        <item>1688012|Santa Maria,Cagayan Valley|PH</item>
+        <item>1688015|Santa Maria,Cagayan Valley|PH</item>
+        <item>1688016|Santa Maria,Ilocos Region|PH</item>
+        <item>1688029|Santa Maria,Central Luzon|PH</item>
+        <item>1688031|Santa Maria,Central Luzon|PH</item>
+        <item>1688044|Santa Maria,Calabarzon|PH</item>
+        <item>1688051|Santa Maria,MIMAROPA|PH</item>
+        <item>1688055|Santa Maria,Caraga|PH</item>
+        <item>1688056|Santa Maria,Caraga|PH</item>
+        <item>565284|Donskoye,Tambovskaya oblast'|RU</item>
+        <item>565289|Donskoye,Stavropolskiy kray|RU</item>
+        <item>565285|Donskoye,Lipetskaya oblast'|RU</item>
+        <item>2609904|Donskoye,Kaliningradskaya oblast'|RU</item>
+        <item>4352053|Columbia,MD|US</item>
+        <item>4381982|Columbia,MO|US</item>
+        <item>4575352|Columbia,SC|US</item>
+        <item>4614867|Columbia,TN|US</item>
+        <item>4236206|Columbia,IL|US</item>
+        <item>4288366|Columbia,KY|US</item>
+        <item>4422457|Columbia,MS|US</item>
+        <item>5185029|Columbia,PA|US</item>
+        <item>5338800|Columbia,CA|US</item>
+        <item>3531576|Cardenas,Tab.|MX</item>
+        <item>3531574|Cardenas,S.L.P.|MX</item>
+        <item>514706|Osa,Permskiy kray|RU</item>
+        <item>2018301|Osa,Irkutskaya oblast'|RU</item>
+        <item>4993125|Forest Hills,MI|US</item>
+        <item>4623039|Forest Hills,TN|US</item>
+        <item>5189981|Forest Hills,PA|US</item>
+        <item>1728883|Bagumbayan,Cagayan Valley|PH</item>
+        <item>1728884|Bagumbayan,Cagayan Valley|PH</item>
+        <item>1728893|Bagumbayan,Bicol|PH</item>
+        <item>1728894|Bagumbayan,Bicol|PH</item>
+        <item>1728902|Bagumbayan,Western Visayas|PH</item>
+        <item>4899012|Lake Forest,IL|US</item>
+        <item>5364514|Lake Forest,CA|US</item>
+        <item>4161228|Lake Forest,FL|US</item>
+        <item>5085966|Exeter,NH|US</item>
+        <item>5189004|Exeter,PA|US</item>
+        <item>5222019|Exeter,RI|US</item>
+        <item>5347239|Exeter,CA|US</item>
+        <item>665450|Corni,BC|RO</item>
+        <item>680742|Corni,BT|RO</item>
+        <item>680746|Corni,GL|RO</item>
+        <item>1691995|Quipot,Calabarzon|PH</item>
+        <item>1691996|Quipot,Western Visayas|PH</item>
+        <item>1708638|Quipot,Calabarzon|PH</item>
+        <item>4309487|Stanford,KY|US</item>
+        <item>5398563|Stanford,CA|US</item>
+        <item>5386754|Redlands,CA|US</item>
+        <item>5436099|Redlands,CO|US</item>
+        <item>4469146|Greensboro,NC|US</item>
+        <item>4065282|Greensboro,AL|US</item>
+        <item>4198204|Greensboro,GA|US</item>
+        <item>4356953|Greensboro,MD|US</item>
+        <item>4585988|Lyman,SC|US</item>
+        <item>5831346|Lyman,WY|US</item>
+        <item>4516749|Lisbon,OH|US</item>
+        <item>4837798|Lisbon,CT|US</item>
+        <item>4864990|Lisbon,IA|US</item>
+        <item>4969622|Lisbon,ME|US</item>
+        <item>5060162|Lisbon,ND|US</item>
+        <item>5160951|Lisbon,OH|US</item>
+        <item>4156746|Gibsonia,FL|US</item>
+        <item>5191070|Gibsonia,PA|US</item>
+        <item>5416357|Castlewood,CO|US</item>
+        <item>4751296|Castlewood,VA|US</item>
+        <item>675417|Ivesti,VS|RO</item>
+        <item>675418|Ivesti,GL|RO</item>
+        <item>2207330|Scarborough,QLD|AU</item>
+        <item>2061840|Scarborough,WA|AU</item>
+        <item>1261828|Narayangarh,HR|IN</item>
+        <item>1261829|Narayangarh,MP|IN</item>
+        <item>4127359|Prairie Grove,AR|US</item>
+        <item>4906641|Prairie Grove,IL|US</item>
+        <item>707451|Ivanivka,Odessa Oblast|UA</item>
+        <item>707453|Ivanivka,Khersons'ka oblast|UA</item>
+        <item>4115181|Hope,AR|US</item>
+        <item>4259115|Hope,IN|US</item>
+        <item>662914|Viisoara,BT|RO</item>
+        <item>662918|Viisoara,NT|RO</item>
+        <item>662920|Viisoara,CJ|RO</item>
+        <item>662921|Viisoara,VS|RO</item>
+        <item>662932|Viisoara,TR|RO</item>
+        <item>769981|Jozefow,mazowieckie|PL</item>
+        <item>770005|Jozefow,lubelskie|PL</item>
+        <item>3389321|Santa Rita,PB|BR</item>
+        <item>3389339|Santa Rita,MA|BR</item>
+        <item>1717926|Catarman,Eastern Visayas|PH</item>
+        <item>1717930|Catarman,Central Visayas|PH</item>
+        <item>1717931|Catarman,Northern Mindanao|PH</item>
+        <item>1685577|Subic,Central Luzon|PH</item>
+        <item>1685578|Subic,Calabarzon|PH</item>
+        <item>4174600|Sweetwater,FL|US</item>
+        <item>4661331|Sweetwater,TN|US</item>
+        <item>5531968|Sweetwater,TX|US</item>
+        <item>3026083|Chatillon,Île-de-France|FR</item>
+        <item>3026075|Chatillon,Auvergne-Rhône-Alpes|FR</item>
+        <item>3026089|Chatillon,Auvergne-Rhône-Alpes|FR</item>
+        <item>4885418|Bradley,IL|US</item>
+        <item>4799944|Bradley,WV|US</item>
+        <item>1708566|Cogon,Central Visayas|PH</item>
+        <item>1717211|Cogon,Davao Region|PH</item>
+        <item>1717242|Cogon,Western Visayas|PH</item>
+        <item>1717253|Cogon,Central Visayas|PH</item>
+        <item>1717259|Cogon,Central Visayas|PH</item>
+        <item>5879400|Anchorage,AK|US</item>
+        <item>4282497|Anchorage,KY|US</item>
+        <item>710947|Chapayevka,Kyivs'ka oblast|UA</item>
+        <item>710950|Chapayevka,Zaporiz'ka oblast|UA</item>
+        <item>473762|Vidyayevo,Murmanskaya oblast'|RU</item>
+        <item>795235|Vidyayevo,Murmanskaya oblast'|RU</item>
+        <item>4215251|Pembroke,GA|US</item>
+        <item>4484490|Pembroke,NC|US</item>
+        <item>5090918|Pembroke,NH|US</item>
+        <item>1690158|San Diego,Calabarzon|PH</item>
+        <item>1690160|San Diego,Calabarzon|PH</item>
+        <item>5102796|Point Pleasant,NJ|US</item>
+        <item>4818750|Point Pleasant,WV|US</item>
+        <item>4186213|Canton,GA|US</item>
+        <item>4932214|Canton,MA|US</item>
+        <item>4987990|Canton,MI|US</item>
+        <item>5149222|Canton,OH|US</item>
+        <item>4420617|Canton,MS|US</item>
+        <item>4459120|Canton,NC|US</item>
+        <item>4678858|Canton,TX|US</item>
+        <item>4831990|Canton,IL|US</item>
+        <item>5054390|Canton,MO|US</item>
+        <item>5111484|Canton,NY|US</item>
+        <item>5183169|Canton,PA|US</item>
+        <item>5226716|Canton,SD|US</item>
+        <item>2881279|Langen,HE|DE</item>
+        <item>2881276|Langen,NDS|DE</item>
+        <item>4273680|Junction City,KS|US</item>
+        <item>4296734|Junction City,KY|US</item>
+        <item>5734198|Junction City,OR|US</item>
+        <item>5195561|Johnstown,PA|US</item>
+        <item>5122833|Johnstown,NY|US</item>
+        <item>5159309|Johnstown,OH|US</item>
+        <item>5578536|Johnstown,CO|US</item>
+        <item>2037346|Fuxin,Liaoning Sheng|CN</item>
+        <item>2037345|Fuxin,Liaoning Sheng|CN</item>
+        <item>1690493|San Agustin,Central Luzon|PH</item>
+        <item>1690499|San Agustin,Central Luzon|PH</item>
+        <item>1690508|San Agustin,Bicol|PH</item>
+        <item>1690511|San Agustin,Bicol|PH</item>
+        <item>1690512|San Agustin,MIMAROPA|PH</item>
+        <item>1690514|San Agustin,MIMAROPA|PH</item>
+        <item>1690516|San Agustin,MIMAROPA|PH</item>
+        <item>1690528|San Agustin,Central Visayas|PH</item>
+        <item>676707|Grivita,GL|RO</item>
+        <item>676708|Grivita,IL|RO</item>
+        <item>4893392|Galesburg,IL|US</item>
+        <item>4993609|Galesburg,MI|US</item>
+        <item>1691804|Recodo,Zamboanga Peninsula|PH</item>
+        <item>1691803|Recodo,Bicol|PH</item>
+        <item>4286281|Burlington,KY|US</item>
+        <item>4458228|Burlington,NC|US</item>
+        <item>4849826|Burlington,IA|US</item>
+        <item>4931737|Burlington,MA|US</item>
+        <item>5234372|Burlington,VT|US</item>
+        <item>4268854|Burlington,KS|US</item>
+        <item>4507497|Burlington,OH|US</item>
+        <item>5096075|Burlington,NJ|US</item>
+        <item>5148745|Burlington,OH|US</item>
+        <item>5247214|Burlington,WI|US</item>
+        <item>5415502|Burlington,CO|US</item>
+        <item>5788539|Burlington,WA|US</item>
+        <item>4501018|Camden,NJ|US</item>
+        <item>4053200|Camden,AL|US</item>
+        <item>4104182|Camden,AR|US</item>
+        <item>4141748|Camden,DE|US</item>
+        <item>4507755|Camden,OH|US</item>
+        <item>4573209|Camden,SC|US</item>
+        <item>4610643|Camden,TN|US</item>
+        <item>4833304|Camden,OH|US</item>
+        <item>4959908|Camden,ME|US</item>
+        <item>5111148|Camden,NY|US</item>
+        <item>1278294|Ashta,MP|IN</item>
+        <item>1278296|Ashta,MH|IN</item>
+        <item>770348|Jasienica,mazowieckie|PL</item>
+        <item>3097472|Jasienica,śląskie|PL</item>
+        <item>1690209|San Carlos,Central Luzon|PH</item>
+        <item>1690213|San Carlos,Central Luzon|PH</item>
+        <item>1690214|San Carlos,Calabarzon|PH</item>
+        <item>1690220|San Carlos,Northern Mindanao|PH</item>
+        <item>1259735|Phulpur,UP|IN</item>
+        <item>1259734|Phulpur,UP|IN</item>
+        <item>4951699|Spencer,MA|US</item>
+        <item>4265147|Spencer,IN|US</item>
+        <item>4492871|Spencer,NC|US</item>
+        <item>4551915|Spencer,OK|US</item>
+        <item>4822933|Spencer,WV|US</item>
+        <item>4877138|Spencer,IA|US</item>
+        <item>5273956|Spencer,WI|US</item>
+        <item>4175437|Titusville,FL|US</item>
+        <item>5215726|Titusville,PA|US</item>
+        <item>4047914|Villas,FL|US</item>
+        <item>4504616|Villas,NJ|US</item>
+        <item>5232741|Watertown,SD|US</item>
+        <item>4954611|Watertown,MA|US</item>
+        <item>5143396|Watertown,NY|US</item>
+        <item>5278005|Watertown,WI|US</item>
+        <item>4177542|Watertown,FL|US</item>
+        <item>4845245|Watertown,CT|US</item>
+        <item>5052016|Watertown,MN|US</item>
+        <item>4713800|Nash,TX|US</item>
+        <item>4713805|Nash,TX|US</item>
+        <item>3198137|Kiseljak,Federacija Bosne i Hercegovine|BA</item>
+        <item>3198138|Kiseljak,Federacija Bosne i Hercegovine|BA</item>
+        <item>4926613|South Haven,IN|US</item>
+        <item>5010517|South Haven,MI|US</item>
+        <item>2851262|Rabenau,SN|DE</item>
+        <item>7576812|Rabenau,HE|DE</item>
+        <item>5019335|Brooklyn Park,MN|US</item>
+        <item>4349599|Brooklyn Park,MD|US</item>
+        <item>1683340|Tanauan,Calabarzon|PH</item>
+        <item>1683342|Tanauan,Eastern Visayas|PH</item>
+        <item>1715542|Dapitan,Zamboanga Peninsula|PH</item>
+        <item>1715541|Dapitan,Central Visayas|PH</item>
+        <item>4003757|Juarez,N.L.|MX</item>
+        <item>4020386|Juarez,Dgo.|MX</item>
+        <item>295781|Demre,Antalya|TR</item>
+        <item>6559490|Demre,Antalya|TR</item>
+        <item>2985304|Pringy,Île-de-France|FR</item>
+        <item>2985305|Pringy,Auvergne-Rhône-Alpes|FR</item>
+        <item>5146491|Barberton,OH|US</item>
+        <item>5786322|Barberton,WA|US</item>
+        <item>4244967|Mount Carmel,IL|US</item>
+        <item>4518834|Mount Carmel,OH|US</item>
+        <item>4643150|Mount Carmel,TN|US</item>
+        <item>4643153|Mount Carmel,TN|US</item>
+        <item>5163613|Mount Carmel,OH|US</item>
+        <item>5202114|Mount Carmel,PA|US</item>
+        <item>4590184|Orangeburg,SC|US</item>
+        <item>5129923|Orangeburg,NY|US</item>
+        <item>1650232|Banjar,Bali|ID</item>
+        <item>1650234|Banjar,Jawa Barat|ID</item>
+        <item>1722690|Bunga,Eastern Visayas|PH</item>
+        <item>1722693|Bunga,Eastern Visayas|PH</item>
+        <item>4172383|Sebring,FL|US</item>
+        <item>5171555|Sebring,OH|US</item>
+        <item>4060791|Enterprise,AL|US</item>
+        <item>5503766|Enterprise,NV|US</item>
+        <item>5725721|Enterprise,OR|US</item>
+        <item>4467657|Garner,NC|US</item>
+        <item>4858117|Garner,IA|US</item>
+        <item>3461090|Ipora,GO|BR</item>
+        <item>3461089|Ipora,PR|BR</item>
+        <item>771384|Grojec,mazowieckie|PL</item>
+        <item>3098277|Grojec,małopolskie|PL</item>
+        <item>542109|Krasnoye,Lipetskaya oblast'|RU</item>
+        <item>542121|Krasnoye,Belgorodskaya oblast'|RU</item>
+        <item>542125|Krasnoye,Krasnodarskiy kray|RU</item>
+        <item>1502013|Krasnoye,Kemerovskaya oblast'|RU</item>
+        <item>3980844|Tuxpan,Jal.|MX</item>
+        <item>3980843|Tuxpan,Mich.|MX</item>
+        <item>4189612|Country Club Estates,GA|US</item>
+        <item>4189613|Country Club Estates,GA|US</item>
+        <item>672720|Movilita,VN|RO</item>
+        <item>672722|Movilita,IL|RO</item>
+        <item>4880889|Waterloo,IA|US</item>
+        <item>4252548|Waterloo,IL|US</item>
+        <item>4266643|Waterloo,IN|US</item>
+        <item>4927928|Waterloo,IN|US</item>
+        <item>5143380|Waterloo,NY|US</item>
+        <item>5277989|Waterloo,WI|US</item>
+        <item>505057|Privolzhskiy,Саратовская|RU</item>
+        <item>827990|Privolzhskiy,Respublika Mariy El|RU</item>
+        <item>4101309|Berryville,AR|US</item>
+        <item>4746795|Berryville,VA|US</item>
+        <item>4571722|Bluffton,SC|US</item>
+        <item>4918234|Bluffton,IN|US</item>
+        <item>5147766|Bluffton,OH|US</item>
+        <item>675840|Ianca,BR|RO</item>
+        <item>675841|Ianca,OT|RO</item>
+        <item>797411|Stepnoye,Stavropolskiy kray|RU</item>
+        <item>487543|Stepnoye,Saratovskaya oblast'|RU</item>
+        <item>3393400|Pacatuba,CE|BR</item>
+        <item>3455637|Pacatuba,SE|BR</item>
+        <item>5359777|Irvine,CA|US</item>
+        <item>4295954|Irvine,KY|US</item>
+        <item>4095392|Vernon,AL|US</item>
+        <item>4739078|Vernon,TX|US</item>
+        <item>471501|Vostochnyy,Moskva|RU</item>
+        <item>471499|Vostochnyy,Kirovskaya oblast'|RU</item>
+        <item>1486795|Vostochnyy,Sverdlovskaya oblast'|RU</item>
+        <item>4633419|Johnson City,TN|US</item>
+        <item>5122794|Johnson City,NY|US</item>
+        <item>3667728|Sucre,Sucre|CO</item>
+        <item>3667732|Sucre,Cauca|CO</item>
+        <item>4166723|Ocean City,FL|US</item>
+        <item>4364312|Ocean City,MD|US</item>
+        <item>4503351|Ocean City,NJ|US</item>
+        <item>711621|Borova,Kyivs'ka oblast|UA</item>
+        <item>711623|Borova,Kharkiv Oblast|UA</item>
+        <item>3457817|Marau,RS|BR</item>
+        <item>3457818|Marau,BA|BR</item>
+        <item>1728196|Balibago,Central Luzon|PH</item>
+        <item>1728203|Balibago,Calabarzon|PH</item>
+        <item>1728204|Balibago,Calabarzon|PH</item>
+        <item>4491715|Silver Lake,NC|US</item>
+        <item>5172120|Silver Lake,OH|US</item>
+        <item>5273204|Silver Lake,WI|US</item>
+        <item>5273224|Silver Lake,WI|US</item>
+        <item>4500942|Bridgeton,NJ|US</item>
+        <item>4378391|Bridgeton,MO|US</item>
+        <item>4674593|Bishop,TX|US</item>
+        <item>5328808|Bishop,CA|US</item>
+        <item>4839843|Norwich,CT|US</item>
+        <item>5129359|Norwich,NY|US</item>
+        <item>4581261|Hartsville,SC|US</item>
+        <item>4628109|Hartsville,TN|US</item>
+        <item>4993402|Freeland,MI|US</item>
+        <item>5190469|Freeland,PA|US</item>
+        <item>5795025|Freeland,WA|US</item>
+        <item>4899581|Lemont,IL|US</item>
+        <item>5197723|Lemont,PA|US</item>
+        <item>667585|Scorteni,BC|RO</item>
+        <item>667586|Scorteni,PH|RO</item>
+        <item>4921402|Highland,IN|US</item>
+        <item>5356868|Highland,CA|US</item>
+        <item>5775863|Highland,UT|US</item>
+        <item>4240679|Highland,IL|US</item>
+        <item>4258909|Highland,IN|US</item>
+        <item>5120741|Highland,NY|US</item>
+        <item>5797300|Highland,WA|US</item>
+        <item>4406941|Saint John,MO|US</item>
+        <item>4925793|Saint John,IN|US</item>
+        <item>678942|Dragoesti,SV|RO</item>
+        <item>678947|Dragoesti,VL|RO</item>
+        <item>4197938|Gray,GA|US</item>
+        <item>4326320|Gray,LA|US</item>
+        <item>5130780|Pearl River,NY|US</item>
+        <item>4336717|Pearl River,LA|US</item>
+        <item>4440572|Pearl River,MS|US</item>
+    </string-array>
+</resources>
