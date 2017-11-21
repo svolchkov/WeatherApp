@@ -4,6 +4,7 @@ import android.app.Activity;
 import android.content.Context;
 import android.content.Intent;
 import android.content.SharedPreferences;
+import android.content.res.AssetManager;
 import android.graphics.Color;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
@@ -33,7 +34,11 @@ import android.widget.TextView;
 
 import com.example.sergeyv.weatherapp.model.Settings;
 
+import java.io.BufferedReader;
+import java.io.IOException;
+import java.io.InputStreamReader;
 import java.util.ArrayList;
+import java.util.Arrays;
 import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
@@ -102,19 +107,26 @@ public class PreferencesActivity extends AppCompatActivity {
 
         }
 
-        String[] cityArray = getResources().getStringArray(R.array.world_cities_array);
-        for(String cc : cityArray){
-            if (cc.split("\\|").length > 2){
-                String[] data = cc.split("\\|");
-                String city = data[1];
-                String countryCode = data[2];
-                if (!citiesByCountry.containsKey(countryCode)){
-                    citiesByCountry.put(countryCode, new ArrayList<String>());
+        //String[] cityArray = getResources().getStringArray(R.array.world_cities_array);
+        try{
+            Object[] objectArray = readLines("cities.txt").toArray();
+            String[] cityArray = Arrays.copyOf(objectArray, objectArray.length, String[].class);
+            for(String cc : cityArray){
+                if (cc.split("\\|").length > 2){
+                    String[] data = cc.split("\\|");
+                    String city = data[1];
+                    String countryCode = data[2];
+                    if (!citiesByCountry.containsKey(countryCode)){
+                        citiesByCountry.put(countryCode, new ArrayList<String>());
+                    }
+                    citiesByCountry.get(countryCode).add(city);
                 }
-                citiesByCountry.get(countryCode).add(city);
+
             }
+        }catch (IOException ioe){
 
         }
+
 
         //for(Map.Entry<String, List<String>> entry : citiesByCountry.entrySet()) {
         //    String key = entry.getKey();
@@ -228,6 +240,20 @@ public class PreferencesActivity extends AppCompatActivity {
 //                        countryEdit.getText().insert(s, t.substring(s - i));
 //                    }
 //                });
+    }
+
+    public List<String> readLines(String filename) throws IOException {
+        List<String> lines = new ArrayList<String>();
+        AssetManager assets = getAssets();
+        BufferedReader reader = new BufferedReader(new InputStreamReader(assets.open(filename)));
+        while(true) {
+            String line = reader.readLine();
+            if(line == null) {
+                break;
+            }
+            lines.add(line);
+        }
+        return lines;
     }
 
     @Override
