@@ -47,7 +47,7 @@ public class MainActivity extends AppCompatActivity {
     TextView tvDateTime, tvTitle, tvCity, tvTemperature;
     ArrayList<TextView> textViews;
     int textColor;
-    public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_"; // name of preferences file
+    public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_new"; // name of preferences file
 
     GridView weatherGrid;
 
@@ -93,8 +93,9 @@ public class MainActivity extends AppCompatActivity {
 
         SharedPreferences prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
         if (prefs != null) {
-            Settings.textColour = prefs.getInt("textColor", Color.WHITE);
+            //Settings.textColour = prefs.getInt("textColor", Color.WHITE);
             Settings.city = prefs.getString("city", null);
+            Settings.cityId = prefs.getString("cityID", null);
 
         }
         if (Settings.textColour != 0){
@@ -107,11 +108,14 @@ public class MainActivity extends AppCompatActivity {
             tvCity.setText(Settings.city);
         }
         else{
+            // TODO: use geoLocation to find city
             String defaultCity = getString(R.string.defaultCity);
+            String defaultCityID = getString(R.string.defaultCityID);
             String noSettings = getString(R.string.noSettingsSet);
             Snackbar mySnackbar = Snackbar.make(findViewById(R.id.constraintLayout),
                     String.format(noSettings,defaultCity), Snackbar.LENGTH_LONG);
             Settings.city = defaultCity;
+            Settings.cityId = defaultCityID;
             mySnackbar.show();
         }
 
@@ -232,12 +236,12 @@ public class MainActivity extends AppCompatActivity {
     protected void onStop(){
         // save current user settings to preferences
         super.onStop();
-//        SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
-//        if (Settings.textColour != 0)
-//            editor.putInt("textColor", Settings.textColour);
-//        if (Settings.city != null)
-//            editor.putString("city", Settings.city);
-//        editor.apply();
+        SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+        if (Settings.cityId != null)
+            editor.putString("cityID", Settings.cityId);
+        if (Settings.city != null)
+            editor.putString("city", Settings.city);
+        editor.apply();
     }
 
 

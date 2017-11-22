@@ -62,9 +62,33 @@ public class DetailWeather extends AppCompatActivity {
         toolbar.setNavigationIcon(R.drawable.ic_arrow_back_black_24dp);
 
         final ActionBar actionBar = getSupportActionBar();
-        actionBar.setTitle(String.format(getString(R.string.detailTitle),Settings.city));
+
 
         handler = new Handler();
+
+        if (Settings.city == null){
+            SharedPreferences prefs = getSharedPreferences(MainActivity.MY_PREFS_NAME, MODE_PRIVATE);
+            if (prefs != null) {
+                //Settings.textColour = prefs.getInt("textColor", Color.WHITE);
+                Settings.city = prefs.getString("city", null);
+                Settings.cityId = prefs.getString("cityID", null);
+
+            }else{
+                // TODO: use geoLocation to find city
+                String defaultCity = getString(R.string.defaultCity);
+                String defaultCityID = getString(R.string.defaultCityID);
+                String noSettings = getString(R.string.noSettingsSet);
+                Snackbar mySnackbar = Snackbar.make(findViewById(R.id.constraintLayout),
+                        String.format(noSettings,defaultCity), Snackbar.LENGTH_LONG);
+                Settings.city = defaultCity;
+                Settings.cityId = defaultCityID;
+                mySnackbar.show();
+            }
+
+
+        }
+
+            actionBar.setTitle(String.format(getString(R.string.detailTitle),Settings.city));
         }
 
     private void updateWeatherData(String city){

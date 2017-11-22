@@ -6,10 +6,11 @@
     <string name="unknownCity">This city is unknown</string>
     <string name="weatherInfo">Current: %1$.1f℃  Max: %2$.1f℃  Min: %3$.1f℃</string>
     <string name="loadImageString">http://openweathermap.org/img/w/%1$s.png</string>
-    <string name="forecastURL">http://api.openweathermap.org/data/2.5/forecast?q=%1$s&amp;units=metric&amp;APPID=%2$s</string>
-    <string name="currentWeatherURL">http://api.openweathermap.org/data/2.5/weather?q=%1$s&amp;units=metric&amp;APPID=%2$s</string>
-    <string name="dailyForecastURL">http://api.openweathermap.org/data/2.5/forecast/daily?q=%1$s&amp;units=metric&amp;cnt=14&amp;APPID=%2$s</string>
-    <string name="defaultCity">Perth,WA</string>
+    <string name="forecastURL">http://api.openweathermap.org/data/2.5/forecast?id=%1$s&amp;units=metric&amp;APPID=%2$s</string>
+    <string name="currentWeatherURL">http://api.openweathermap.org/data/2.5/weather?id=%1$s&amp;units=metric&amp;APPID=%2$s</string>
+    <string name="dailyForecastURL">http://api.openweathermap.org/data/2.5/forecast/daily?id=%1$s&amp;units=metric&amp;cnt=14&amp;APPID=%2$s</string>
+    <string name="defaultCity">Melbourne, AU</string>
+    <string name="defaultCityID">2158177</string>
     <string name="detailTitle">%s - 14-day Forecast</string>
     <string name="maxMinTemp">Max: %1$s℃  Min: %2$s℃</string>
     <string name="rain">Rain: %s mm</string>

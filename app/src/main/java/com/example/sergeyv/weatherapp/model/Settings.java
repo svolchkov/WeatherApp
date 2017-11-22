@@ -8,5 +8,6 @@ import android.graphics.Color;
 
 public class Settings {
     public static String city;
+    public static String cityId;
     public static int textColour = Color.WHITE;
 }

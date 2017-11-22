@@ -6,6 +6,7 @@ import android.content.Intent;
 import android.content.SharedPreferences;
 import android.content.res.AssetManager;
 import android.graphics.Color;
+import android.support.design.widget.Snackbar;
 import android.support.v7.app.ActionBar;
 import android.support.v7.app.AppCompatActivity;
 import android.os.Bundle;
@@ -43,6 +44,7 @@ import java.util.Collections;
 import java.util.HashMap;
 import java.util.List;
 import java.util.Map;
+import java.util.StringJoiner;
 
 public class PreferencesActivity extends AppCompatActivity {
 
@@ -52,14 +54,15 @@ public class PreferencesActivity extends AppCompatActivity {
     private AutoCompleteTextView countryEdit;
     private ArrayAdapter<String> cityAdapter = null;
     private ArrayAdapter<String> countryAdapter = null;
+    String countryCode = "";
 
-    public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_"; // name of preferences file
+    public static String MY_PREFS_NAME = "com.example.sergeyv.weatherapp.settings_new"; // name of preferences file
     SharedPreferences prefs;
 
     HashMap<String,String> countryNamesToCodes = new HashMap<String,String>();
     HashMap<String,String> countryCodesToNames = new HashMap<String,String>();
     HashMap<String,List<String>> citiesByCountry = new HashMap<String,List<String>>();
-
+    HashMap<String,String> cityIDs = new HashMap<String,String>();
 
     @Override
     protected void onCreate(Bundle savedInstanceState) {
@@ -114,17 +117,25 @@ public class PreferencesActivity extends AppCompatActivity {
             for(String cc : cityArray){
                 if (cc.split("\\|").length > 2){
                     String[] data = cc.split("\\|");
+                    String cityID = data[0];
                     String city = data[1];
                     String countryCode = data[2];
                     if (!citiesByCountry.containsKey(countryCode)){
                         citiesByCountry.put(countryCode, new ArrayList<String>());
                     }
                     citiesByCountry.get(countryCode).add(city);
+                    String joined = new StringBuilder()
+                            .append(city).append(", ")
+                            .append(countryCode)
+                            .toString();
+                    cityIDs.put(joined,cityID);
                 }
 
             }
         }catch (IOException ioe){
-
+            Snackbar mySnackbar = Snackbar.make(findViewById(R.id.constraintLayout),
+                    "City file not found", Snackbar.LENGTH_LONG);
+            mySnackbar.show();
         }
 
 
@@ -145,6 +156,7 @@ public class PreferencesActivity extends AppCompatActivity {
 
         countryEdit.addTextChangedListener(filterTextWatcher);
 
+        spCities.addTextChangedListener(filterTextWatcherCity);
         //countryEdit.setTokenizer(new SpaceTokenizer());
 
         countryEdit.setAdapter(countryAdapter);
@@ -193,6 +205,15 @@ public class PreferencesActivity extends AppCompatActivity {
 
         prefs = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE);
 
+        if (!(TextUtils.isEmpty(Settings.city))){
+            if (Settings.city.split(", ").length > 2) {
+                String[] data = Settings.city.split(", ");
+                //String cityID = data[0];
+                spCities.setText(data[0]);
+                countryEdit.setText(countryCodesToNames.get(data[1]));
+            }
+        }
+
 //        spCities.setOnItemSelectedListener(new SpinnerActivity());
 //        spTextColors.setOnItemSelectedListener(new SpinnerActivity());
         countryEdit.setOnKeyListener(new View.OnKeyListener() {
@@ -221,6 +242,8 @@ public class PreferencesActivity extends AppCompatActivity {
                 return false;
             }
         });
+
+
 
 //        getListView().setOnItemClickListener(
 //                new ListView.OnItemClickListener() {
@@ -260,6 +283,7 @@ public class PreferencesActivity extends AppCompatActivity {
     protected void onDestroy() {
         super.onDestroy();
         countryEdit.removeTextChangedListener(filterTextWatcher);
+        spCities.removeTextChangedListener(filterTextWatcherCity);
     }
 
 
@@ -271,8 +295,8 @@ public class PreferencesActivity extends AppCompatActivity {
             String countryName = countryEdit.getText().toString().trim();
             if (countryNamesToCodes.containsKey(countryName)) {
                 String countryCode = countryNamesToCodes.get(countryName);
-                if (citiesByCountry.containsKey(countryCode)){
-                    ArrayList<String> cities = (ArrayList)citiesByCountry.get(countryCode);
+                if (citiesByCountry.containsKey(countryCode)) {
+                    ArrayList<String> cities = (ArrayList) citiesByCountry.get(countryCode);
                     Collections.sort(cities);
                     cityAdapter = new AutoSuggestAdapterCity(PreferencesActivity.this,
                             R.layout.spinner_item, cities);
@@ -281,7 +305,6 @@ public class PreferencesActivity extends AppCompatActivity {
 
             }
         }
-
         public void beforeTextChanged(CharSequence s, int start, int count,
                                       int after) {
         }
@@ -289,6 +312,41 @@ public class PreferencesActivity extends AppCompatActivity {
         public void onTextChanged(CharSequence s, int start, int before,
                                   int count) {
             countryAdapter.getFilter().filter(s);
+        }
+
+    };
+
+        private TextWatcher filterTextWatcherCity = new TextWatcher() {
+
+            public void afterTextChanged(Editable s) {
+                //okButton.setEnabled(countryEdit.getText().toString().trim()
+                String cityName = spCities.getText().toString().trim();
+                String countryName = countryEdit.getText().toString().trim();
+                if (countryNamesToCodes.containsKey(countryName)) {
+                    String fullKey = new StringBuilder().append(cityName).append(", ")
+                            .append(countryNamesToCodes.get(countryName)).toString();
+                    if (cityIDs.containsKey(fullKey)) {
+                        Settings.city = fullKey;
+                        Settings.cityId = cityIDs.get(fullKey);
+                        SharedPreferences.Editor editor = getSharedPreferences(MY_PREFS_NAME, MODE_PRIVATE).edit();
+                        if (Settings.cityId != null)
+                            editor.putString("cityID", Settings.cityId);
+                        if (Settings.city != null)
+                            editor.putString("city", Settings.city);
+                        editor.apply();
+                    }
+                }
+            }
+
+
+
+        public void beforeTextChanged(CharSequence s, int start, int count,
+                                      int after) {
+        }
+
+        public void onTextChanged(CharSequence s, int start, int before,
+                                  int count) {
+            //countryAdapter.getFilter().filter(s);
         }
 
     };
@@ -434,10 +492,10 @@ public class PreferencesActivity extends AppCompatActivity {
 
             ImageView weatherIcon = (ImageView) view
                     .findViewById(R.id.flag_icon);
-            String code = countryNamesToCodes.get(item);
-            if (code != null){
-                code = code.toLowerCase();
-                String mDrawableName = "flags_" + code;
+            countryCode = countryNamesToCodes.get(item);
+            if (countryCode != null){
+                countryCode = countryCode.toLowerCase();
+                String mDrawableName = "flags_" + countryCode;
                 int resID = getResources().getIdentifier(mDrawableName , "drawable", getPackageName());
                 weatherIcon.setImageResource(resID);
             }

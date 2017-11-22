@@ -3,6 +3,8 @@ package com.example.sergeyv.weatherapp;
 import android.content.Context;
 import android.util.Log;
 
+import com.example.sergeyv.weatherapp.model.Settings;
+
 import org.json.JSONObject;
 
 import java.io.BufferedReader;
@@ -32,7 +34,7 @@ public class FetchWeather {
                 OPEN_WEATHER_MAP_API = context.getString(R.string.currentWeatherURL);
             }
 
-            URL url = new URL(String.format(OPEN_WEATHER_MAP_API, city,context.getString(R.string.openWeatherApiKey)));
+            URL url = new URL(String.format(OPEN_WEATHER_MAP_API, Settings.cityId,context.getString(R.string.openWeatherApiKey)));
             HttpURLConnection connection =
                     (HttpURLConnection) url.openConnection();
 
